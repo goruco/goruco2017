@@ -1,0 +1,42 @@
+.location-wrap {
+  background-image: url(/assets/images/altman.png);
+  background-size: cover;
+  border-radius: 1rem;
+  padding: 20rem 2rem;
+  text-align: center;
+
+  @include xs-screen {
+    padding: 5rem 2rem;
+  }
+
+  p {
+    font-size: 21px;
+    margin-bottom: 2rem;
+  }
+}
+
+.location-content {
+  max-width: 55rem;
+  margin: 0 auto;
+
+  .buttons {
+    display: flex;
+    align-items: center;
+
+    @include xs-screen {
+      display: block;
+    }
+
+    > * {
+      flex-grow: 2;
+      margin: 0 1rem;
+
+      @include xs-screen {
+        flex-grow: 0;
+        margin: 0;
+        display: block;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,124 @@
+$left-width: 20rem;
+$item-padding: 2.5rem;
+
+.schedule-wrap {
+  background-color: #f6ebe9;
+  padding: 0;
+}
+
+.schedule {
+  list-style: none;
+  margin-left: $left-width;
+  margin-bottom: 0;
+  padding-left: 0;
+  border-left: 3px solid #F5E1E1;
+  background-color: $white;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+
+  @include xs-screen {
+    margin-left: 1rem;
+  }
+
+}
+
+.schedule-item {
+  padding: $item-padding 0;
+  padding-right: 4rem;
+  position: relative;
+  border-bottom: 0.2rem solid rgba($red, 0.075);
+
+  &.milestone {
+    border: 0.2rem solid rgba($red, 0.2);
+    border-right: 0;
+    border-left: 0;
+
+    &:last-of-type {
+      border-bottom: 0;
+
+      .left {
+        border-bottom: 0;
+      }
+    }
+
+    .left {
+      border: 0.2rem solid rgba($red, 0.15);
+      border-left: 0;
+      border-right: 0;
+      background-color: rgba($red, 0.06);
+
+      @include xs-screen {
+        background-color: transparent;
+        border: 0;
+      }
+    }
+  }
+
+  &:after {
+    content: '';
+    $size: 1.5rem;
+    width: $size;
+    height: $size;
+    left: ($size/2 * -1) - 0.1;
+    top: 3.5rem;
+    border: 0.2rem solid rgba($red, 0.7);
+    background-color: $white;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+  }
+
+  .left {
+    position: absolute;
+    right: 100%;
+    width: $left-width;
+    padding: $item-padding 0;
+    top: -0.2rem;
+    padding-right: 4rem;
+    text-align: right;
+    @include type-secondary;
+    padding-left: 4rem; 
+
+
+    @include xs-screen {
+        position: static;
+        text-align: left;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+  }
+
+  .right {
+    padding-left: 4rem;
+  }
+
+
+  .time {
+    font-size: 21px;
+    display: block;
+
+    @include xs-screen {
+      font-size: 16px;
+    }
+  }
+
+  .duration{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .title {
+    font-size: 2.1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .name {
+    font-size: 1.3rem;
+  }
+
+  .icon {
+    max-height: 3rem;
+  }
+}
+

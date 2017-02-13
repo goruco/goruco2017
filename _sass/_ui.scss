@@ -1,0 +1,37 @@
+.ui-btn-secondary-on-dark {
+  border: 2px solid $white;
+  height: 50px;
+  border-radius: 8px;
+  text-align: center;
+  color: $red;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+  background-color: transparent;
+  color: $white !important;
+  text-align: center;
+  line-height: 46px;
+
+  &:hover, &:visited {
+    font-size: 16px !important;
+  }
+}
+
+.ui-btn {
+  background-color: $red;
+  height: 50px;
+  border-radius: 8px;
+  text-align: center;
+  color: $white !important;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 46px;
+
+  &:hover, &:visited {
+    font-size: 16px !important;
+  }
+}
