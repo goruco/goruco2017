@@ -1,4 +1,4 @@
-body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;  
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
   /* Margin bottom by footer height */
   margin-bottom: 86px;}
 
@@ -44,6 +44,14 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
     @include xs-screen {
       font-size: 13px;
     }
+  }
+
+  .header_cfp_link {
+    margin-top: 10px;
+    display: block;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: normal;
   }
 
   .videos-button {
