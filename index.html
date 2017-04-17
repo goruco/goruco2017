@@ -1,0 +1,1032 @@
+<!doctype html>
+<html>
+  <head>
+    <title>GORUCO 2017</title>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="/images/favicon.png" rel="icon" type="image/png" />
+    <script src="https://use.typekit.net/eah0gcq.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-97511443-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+  </head>
+
+  <body class="index">
+    <section class="overlay-menu fixed top-0 left-0 right-0 bottom-0 w-100 h-100 flex items-center justify-center">
+  <ul class="list pl0">
+    <!-- <li class="mb3"><a data-scroll href="#schedule" class="link dim f2 fw5 white ">Schedule</a></li> -->
+    <li class="mb3"><a data-scroll href="#location" class="link dim f2 fw5 white ">Location</a></li>
+    <li class="mb3"><a data-scroll href="#speakers" class="link dim f2 fw5 white ">Speakers</a></li>
+    <!-- <li class="mb3"><a data-scroll href="#sponsors" class="link dim f2 fw5 white ">Sponsors</a></li> -->
+    <li class="mb3"><a data-scroll href="#organizers" class="link dim f2 fw5 white ">Organizers</a></li>
+    <a class="f5 fw6 pointer link dim ph3 pv2 ba bw1 b--dark-pink bg-dark-pink tc white db mt4" target="_blank" href="https://ti.to/goruco/2017">Buy Tickets</a>
+
+  </ul>
+</section>
+
+<section class="vh-80 bg-goruco-purple flex items-end hero overflow-y-hidden ph4 ph5-l">
+  <svg class="scattered-rubies" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 1226.4 987.8" style="enable-background:new 0 0 1226.4 987.8;" xml:space="preserve">
+<path class="scattered-ruby" data-rellax-speed="1" d="M249.9,305.5L361.1,60.6L238.6,5l-178,66.9L5,194.4L249.9,305.5z"/>
+<path class="scattered-ruby" data-rellax-speed="3" d="M452.7,771.5l267.2-91.2l-45.6-133.6l-179.2-88l-133.6,45.6L452.7,771.5z"/>
+<path class="scattered-ruby" data-rellax-speed="7" d="M756.8,283.5l92.4-131.2l-65.6-46.2l-111.8,19.4l-46.2,65.6L756.8,283.5z"/>
+<path class="scattered-ruby" data-rellax-speed="3" d="M1029.7,965.4l73.8-180.6l-90.3-36.9L886,801.3l-36.9,90.3L1029.7,965.4z"/>
+<path class="scattered-ruby" data-rellax-speed="1" d="M1039.8,596.3l181.6-137.2l-68.6-90.8l-159.4-22.2l-90.8,68.6L1039.8,596.3z"/>
+<path class="scattered-ruby" data-rellax-speed="3" d="M184.4,982.8L304.9,877L252,816.7l-113.2-7.4l-60.3,52.9L184.4,982.8z"/>
+</svg>
+
+  <div class="mw-100">
+    <div class="w-100 mw8-l dib pt3 pb2 pb2-l">
+      <h1 class="white f2 f1-ns ma0 bt bw2 b--white dib pt3" style="max-width: 785px;">GORUCO is a one day, single track conference in New York City</h1>
+      <h2 class="white fw5">Saturday, June 24th 2017</h2>
+    </div>
+    <div class="flex-l items-center pb4">
+      <a class="f5 fw6 pointer link dim ph3 pv2 ba bw1 b--dark-pink bg-dark-pink tc white db mb3 mb0-l mr3-l w-25-l" target="_blank" href="https://ti.to/goruco/2017">Buy Tickets</a>
+
+      <a class="f5 fw6 pointer link db dim ph3 pv2 ba bw1 b--white bg-transparent tc white" target="_blank" href="sponsor-prospectus-2017.pdf">Sponsor Prospectus</a>
+    </div>
+    <nav class="top-navigation" data-gumshoe-header>
+  <div class="flex mobile-menu items-center justify-between dn-l pv3">
+    <h2 class="ma0 white">GORUCO</h2>
+    <button type="button" class="white fw6 button-reset bg-transparent bn flex items-center" id="triggerOverlayMenu">
+      <img src="/images/hamburger.svg" class="h1 mr1" alt="Hamburger" />
+      <span class="menu-title f6">Menu</span>
+    </button>
+  </div>
+  <div class="flex items-center justify-between">
+    <ul class="list pl0 dn db-l" data-gumshoe>
+      <!-- <li class="dib mr2"><a data-scroll href="#schedule" class="f4 b db pr3 pb1 no-underline white">Schedule</a></li> -->
+      <li class="dib mr2"><a data-scroll href="#location" class="f4 b db pr3 pb1 no-underline white">Location</a></li>
+      <li class="dib mr2"><a data-scroll href="#speakers" class="f4 b db pr3 pb1 no-underline white">Speakers</a></li>
+      <!-- <li class="dib mr2"><a data-scroll href="#sponsors" class="f4 b db pr3 pb1 no-underline white">Sponsors</a></li> -->
+      <li class="dib mr2"><a data-scroll href="#organizers" class="f4 b db pr3 pb1 no-underline white">Organizers</a></li>
+    </ul>
+    <div>
+      <a class="f5 fw6 pointer link dim ph3 pv2 ba bw1 b--dark-pink bg-dark-pink tc white ticket-btn dn db-l" target="_blank" href="https://ti.to/goruco/2017">Buy Tickets</a>
+
+    </div>
+  </div>
+</nav>
+
+  </div>
+</section>
+
+<section id="location" class="pv3 pv5-l">
+  <div class="fl w-100 w-50-l pr2 pr3-l mb3 mb4-l">
+    <div class="pa4 ph5-l">
+      <h3 class="f3 f2-ns mt0 mb4 bt bw2 b--black pt3 dib">Location</h3>
+      <p class="f4 ma0 measure lh-copy">GORUCO 2016 will be held at the beautiful Pier 60, located at Chelsea Piers in New York City.</p>
+      <div class="flex items-center mt4">
+        <a class="f5 link dim ba bw1 ph3 pv2 mb2 bg-black b--black white fw5 mr2" href="http://piersixty.com/" target="_blank">Check Out the Space</a>
+        <a class="f5 link dim ba bw1 ph3 pv2 mb2 black fw5" target="_blank" href="https://www.google.com/maps/place/Pier+Sixty/@40.7464794,-74.0105818,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259c7dace3e8d:0xb21e63fb78aa793e!8m2!3d40.7464754!4d-74.0083931">Get Directions</a>
+      </div>
+    </div>
+  </div>
+  <div class="fl w-50 w-25-l pr2">
+    <div class="location-photo mb3 cover" data-original="images/venue/venue-4.jpg"></div>
+    <!-- <img class="location-photo mb3" width="100%" data-original="images/venue/venue-4.jpg" alt=""> -->
+  </div>
+  <div class="fl w-50 w-25-l pl2">
+    <div class="location-photo mb3 cover" data-original="images/venue/venue-5.jpg"></div>
+    <!-- <img class="location-photo mb3" width="100%" data-original="images/venue/venue-1.jpg" alt=""> -->
+  </div>
+  <div class="fl w-50 w-25-l pr2">
+    <div class="location-photo mb3 cover" data-original="images/venue/venue-3.jpg"></div>
+    <!-- <img class="location-photo mb3" width="100%" data-original="images/venue/venue-5.jpg" alt=""> -->
+  </div>
+  <div class="fl w-50 w-50-l pl2 pr2-l">
+    <div class="location-photo mb3 cover" data-original="images/venue/venue-2.jpg"></div>
+    <!-- <img class="location-photo mb3" width="100%" data-original="images/venue/venue-2.jpg" alt=""> -->
+  </div>
+  <div class="cf">
+    <div class="fl w-100 w-25-l pl2-l">
+      <div class="location-photo mb3 cover" data-original="images/venue/venue-1.jpg"></div>
+      <!-- <img class="location-photo object-fit" width="100%" data-original="images/venue/venue-3.jpg" alt=""> -->
+    </div>
+  </div>
+</section>
+
+<section class="pa3 pa5-l" id="speakers">
+  <div class="mb3">
+    <h3 class="f4 f2-ns ma0 bt bw2 b--black pt3 dib">Speakers</h3>
+  </div>
+  <div class="flex flex-wrap nl2 nr2">
+      <article class="w-100 w-50-m w-25-ns pa2 mb4">
+    <div class="aspect-ratio aspect-ratio--16x9 mb4">
+      <div class="aspect-ratio--object cover bg-center" style="background-image:url(images/speakers/paul-dix.jpg);"></div>
+    </div>
+  <h3 class="f3-ns mb1 black-90">Paul Dix</h3>
+  <h2 class="f6 fw4 mt0 mb3">
+    <a class="link dark-pink fw5" target="_blank" href="http://twitter.com/@pauldix">@pauldix</a>
+  </h2>
+  <h3 class="mt1 mb1 fw5">SQL to NoSQL to NewSQL and the rise of polyglot persistence</h3>
+  <p class="f5 lh-copy ma0 mb2">
+    The last ten years have brought many new developments in databases. Prev...
+  </p>
+  <div>
+    <a href="#modal-0" data-modal-open class="link dark-pink f6">Read More</a>
+  </div>
+  <div id="modal-0" class="modal-hider">
+    <div class="bg-scattered-rubies h5 flex flex-column items-center justify-center">
+        <div class="w4 h4 mb3">
+          <div class="aspect-ratio aspect-ratio--1x1">
+            <div class="aspect-ratio--object cover bg-center br-100" style="background-image:url(images/speakers/paul-dix.jpg);"></div>
+          </div>
+        </div>
+      <h1 class="f3 f2-l ma0 white">Paul Dix</h1>
+      <a class="link dark-pink fw5 db mt2" target="_blank" href="http://twitter.com/@pauldix">@pauldix</a>
+      <h2 class="f6 fw5 mt2 mb0 ttu tracked white"> </h2>
+    </div>
+    <div class="pa3 pa4-l modal-body">
+      <div class="mb3">
+        <h3 class="f5 b mt0 mb2">Biography</h3>
+        <p class="measure lh-copy ma0">Paul Dix is cofounder and CTO of InfluxData, the company behind InfluxDB, the open source time series database. He has helped build software for startups, large companies and organizations like Microsoft, Google, McAfee, Thomson Reuters, and Air Force Space Command. He is the series editor for Addison Wesley's Data & Analytics book and video series. In 2010 Paul wrote the book Service Oriented Design with Ruby and Rails for Addison Wesley's Professional Ruby series.</p>
+      </div>
+      <div>
+        <h3 class="f5 b mt0 mb2">SQL to NoSQL to NewSQL and the rise of polyglot persistence</h3>
+        <p class="measure lh-copy ma0">The last ten years have brought many new developments in databases. Previously developers had SQL as the dominant and nearly only paradigm for databases. Then in the mid-aughts the rise of NoSQL databases like MongoDB, Redis, Cassandra, HBase and others brought new paradigms and options to developers. Over the last few years there seems to have been a swing back to NewSQL or scalable databases that support the SQL standard. In this talk we'll look at some of the new database models like document, data structure, time series, and key/value. I'll look at use cases where these different models end up being a better fit for their problem domains than SQL, the previous one true language to rule them all. </p>
+      </div>
+    </div>
+  </div>
+</article>
+
+      <article class="w-100 w-50-m w-25-ns pa2 mb4">
+    <div class="aspect-ratio aspect-ratio--16x9 mb4">
+      <div class="aspect-ratio--object cover bg-center" style="background-image:url(images/speakers/lauren-ellsworth.jpg);"></div>
+    </div>
+  <h3 class="f3-ns mb1 black-90">Lauren Ellsworth</h3>
+  <h2 class="f6 fw4 mt0 mb3">
+    <a class="link dark-pink fw5" target="_blank" href="http://twitter.com/@redyaffle">@redyaffle</a>
+  </h2>
+  <h3 class="mt1 mb1 fw5">What I Learned to Love About Ruby When I Switched to Python</h3>
+  <p class="f5 lh-copy ma0 mb2">
+    When I switched from a Ruby based company to a Python based company, thi...
+  </p>
+  <div>
+    <a href="#modal-1" data-modal-open class="link dark-pink f6">Read More</a>
+  </div>
+  <div id="modal-1" class="modal-hider">
+    <div class="bg-scattered-rubies h5 flex flex-column items-center justify-center">
+        <div class="w4 h4 mb3">
+          <div class="aspect-ratio aspect-ratio--1x1">
+            <div class="aspect-ratio--object cover bg-center br-100" style="background-image:url(images/speakers/lauren-ellsworth.jpg);"></div>
+          </div>
+        </div>
+      <h1 class="f3 f2-l ma0 white">Lauren Ellsworth</h1>
+      <a class="link dark-pink fw5 db mt2" target="_blank" href="http://twitter.com/@redyaffle">@redyaffle</a>
+      <h2 class="f6 fw5 mt2 mb0 ttu tracked white"> </h2>
+    </div>
+    <div class="pa3 pa4-l modal-body">
+      <div class="mb3">
+        <h3 class="f5 b mt0 mb2">Biography</h3>
+        <p class="measure lh-copy ma0">Lauren Ellsworth is a Senior Software Engineer at Flatiron Health, a company working to accelerate cancer research and improve cancer care. In her years of development, Lauren has contributed to a half dozen analytics platforms, software that aids in facial recognition of lions, and foster care case management software, among other projects. Currently, Lauren is scaling engineering on-boarding at Flatiron Health, while developing agile and secure services on the Developer Infrastructure team.</p>
+      </div>
+      <div>
+        <h3 class="f5 b mt0 mb2">What I Learned to Love About Ruby When I Switched to Python</h3>
+        <p class="measure lh-copy ma0">When I switched from a Ruby based company to a Python based company, things I had taken for granted in my Ruby life were suddenly sorely missed, and the transition to a language with only one way to do the same thing created quite a few bumps in the road. This talks draws parallels between Ruby and Python, spotlighting which brought the most developer happiness, what I miss and love about Ruby, and what Ruby can learn from Python. </p>
+      </div>
+    </div>
+  </div>
+</article>
+
+      <article class="w-100 w-50-m w-25-ns pa2 mb4">
+    <div class="aspect-ratio aspect-ratio--16x9 mb4">
+      <div class="aspect-ratio--object cover bg-center" style="background-image:url(images/speakers/alex-qin.jpg);"></div>
+    </div>
+  <h3 class="f3-ns mb1 black-90">Alex Qin</h3>
+  <h2 class="f6 fw4 mt0 mb3">
+    <a class="link dark-pink fw5" target="_blank" href="http://twitter.com/@alexqin">@alexqin</a>
+  </h2>
+  <h3 class="mt1 mb1 fw5">Shaving my head made me a better programmer</h3>
+  <p class="f5 lh-copy ma0 mb2">
+    How do perceptions and stereotypes affect those in software and on engin...
+  </p>
+  <div>
+    <a href="#modal-2" data-modal-open class="link dark-pink f6">Read More</a>
+  </div>
+  <div id="modal-2" class="modal-hider">
+    <div class="bg-scattered-rubies h5 flex flex-column items-center justify-center">
+        <div class="w4 h4 mb3">
+          <div class="aspect-ratio aspect-ratio--1x1">
+            <div class="aspect-ratio--object cover bg-center br-100" style="background-image:url(images/speakers/alex-qin.jpg);"></div>
+          </div>
+        </div>
+      <h1 class="f3 f2-l ma0 white">Alex Qin</h1>
+      <a class="link dark-pink fw5 db mt2" target="_blank" href="http://twitter.com/@alexqin">@alexqin</a>
+      <h2 class="f6 fw5 mt2 mb0 ttu tracked white"> </h2>
+    </div>
+    <div class="pa3 pa4-l modal-body">
+      <div class="mb3">
+        <h3 class="f5 b mt0 mb2">Biography</h3>
+        <p class="measure lh-copy ma0">Alex Qin is a Brooklyn based software engineer and educator. She cares deeply about access to computer science education, and about leveraging technology to create positive social change. She works at Skillshare, where she leads the Web Engineering Team and co-organizes Codeshare, an inclusive and intimate gathering for those interested in the intersection of code, creativity, and art. She is also the founder and lead teacher of the Code Cooperative, an open source educational program in which former inmates learn to code as a means to creating social change.</p>
+      </div>
+      <div>
+        <h3 class="f5 b mt0 mb2">Shaving my head made me a better programmer</h3>
+        <p class="measure lh-copy ma0">How do perceptions and stereotypes affect those in software and on engineering teams? This talk tells the true story of how I hacked my appearance, by shaving my head, to change the way I was perceived as a programmer. This talk also serves as a primer on unconscious bias and stereotype threat, and their effects on individuals and teams. I will provide actionable advice on how to make engineering teams more inclusive, more diverse, and thusly more productive, successful, and attractive to potential hires. </p>
+      </div>
+    </div>
+  </div>
+</article>
+
+      <article class="w-100 w-50-m w-25-ns pa2 mb4">
+    <div class="aspect-ratio aspect-ratio--16x9 mb4">
+      <div class="aspect-ratio--object cover bg-scattered-rubies"></div>
+    </div>
+  <h3 class="f3-ns mb1 black-90">Ryan Findley</h3>
+  <h2 class="f6 fw4 mt0 mb3">
+    <a class="link dark-pink fw5" target="_blank" href="http://twitter.com/@neomindryan">@neomindryan</a>
+  </h2>
+  <h3 class="mt1 mb1 fw5">Object Oriented Thinking with Elixir and OTP</h3>
+  <p class="f5 lh-copy ma0 mb2">
+    Processes in Erlang / Elixir resemble objects in many ways. Some even ar...
+  </p>
+  <div>
+    <a href="#modal-3" data-modal-open class="link dark-pink f6">Read More</a>
+  </div>
+  <div id="modal-3" class="modal-hider">
+    <div class="bg-scattered-rubies h5 flex flex-column items-center justify-center">
+      <h1 class="f3 f2-l ma0 white">Ryan Findley</h1>
+      <a class="link dark-pink fw5 db mt2" target="_blank" href="http://twitter.com/@neomindryan">@neomindryan</a>
+      <h2 class="f6 fw5 mt2 mb0 ttu tracked white"> </h2>
+    </div>
+    <div class="pa3 pa4-l modal-body">
+      <div class="mb3">
+        <h3 class="f5 b mt0 mb2">Biography</h3>
+        <p class="measure lh-copy ma0">Ryan Findley is the Founder of Neomind Labs, a professional software developer of over 15 years, a husband, and father. Ryan has been building and integrating custom solutions since the early 90s. Neomind Labs specializes in software stewardship with a focus on Ruby, Rails, and JavaScript. Neomind has built and maintained software systems for clients in the US that serve a global audience of customers, including academic and medical institutions, Fortune 500 companies, and non-profit orgs.</p>
+      </div>
+      <div>
+        <h3 class="f5 b mt0 mb2">Object Oriented Thinking with Elixir and OTP</h3>
+        <p class="measure lh-copy ma0">Processes in Erlang / Elixir resemble objects in many ways. Some even argue that Erlang processes and the Actor Model are a purer form of object-orientation. The Elixir community has a large contingent of Rubyists that have extended many of the core values (and joys) of Ruby into the world of Elixir. This talk exposes some of the reasons why while providing a starting point for further learning </p>
+      </div>
+    </div>
+  </div>
+</article>
+
+      <article class="w-100 w-50-m w-25-ns pa2 mb4">
+    <div class="aspect-ratio aspect-ratio--16x9 mb4">
+      <div class="aspect-ratio--object cover bg-center" style="background-image:url(images/speakers/liz-baillie.jpg);"></div>
+    </div>
+  <h3 class="f3-ns mb1 black-90">Liz Baillie</h3>
+  <h2 class="f6 fw4 mt0 mb3">
+    <a class="link dark-pink fw5" target="_blank" href="http://twitter.com/@_lbaillie">@_lbaillie</a>
+  </h2>
+  <h3 class="mt1 mb1 fw5">The Rubyist's Illustrated Rust Adventure Survival Guide</h3>
+  <p class="f5 lh-copy ma0 mb2">
+    Programming is an adventure, often more harrowing than it has to be. If ...
+  </p>
+  <div>
+    <a href="#modal-4" data-modal-open class="link dark-pink f6">Read More</a>
+  </div>
+  <div id="modal-4" class="modal-hider">
+    <div class="bg-scattered-rubies h5 flex flex-column items-center justify-center">
+        <div class="w4 h4 mb3">
+          <div class="aspect-ratio aspect-ratio--1x1">
+            <div class="aspect-ratio--object cover bg-center br-100" style="background-image:url(images/speakers/liz-baillie.jpg);"></div>
+          </div>
+        </div>
+      <h1 class="f3 f2-l ma0 white">Liz Baillie</h1>
+      <a class="link dark-pink fw5 db mt2" target="_blank" href="http://twitter.com/@_lbaillie">@_lbaillie</a>
+      <h2 class="f6 fw5 mt2 mb0 ttu tracked white"> </h2>
+    </div>
+    <div class="pa3 pa4-l modal-body">
+      <div class="mb3">
+        <h3 class="f5 b mt0 mb2">Biography</h3>
+        <p class="measure lh-copy ma0">Liz is currently wrangling the JavaScripts and herding the Rubies as an engineer at Tilde. Previously, she spent many years drawing comic books to a limited but enthusiastic audience. She is just getting started at contributing to open source projects and is already addicted. Please send help (don't actually send help).</p>
+      </div>
+      <div>
+        <h3 class="f5 b mt0 mb2">The Rubyist's Illustrated Rust Adventure Survival Guide</h3>
+        <p class="measure lh-copy ma0">Programming is an adventure, often more harrowing than it has to be. If you're more used to higher-level languages like Ruby or JavaScript, learning a lower-level language like Rust can feel like an impossible journey that leaves you wishing for a well-written and heavily illustrated field guide. Good news! I have already gone down this road and am now prepared to share my adventure with you. Luckily, I was able to capture much of the flora and fauna of Rustlandia with my primitive pictorial devices (paper and pen). </p>
+      </div>
+    </div>
+  </div>
+</article>
+
+      <article class="w-100 w-50-m w-25-ns pa2 mb4">
+    <div class="aspect-ratio aspect-ratio--16x9 mb4">
+      <div class="aspect-ratio--object cover bg-center" style="background-image:url(images/speakers/adam-cuppy.jpg);"></div>
+    </div>
+  <h3 class="f3-ns mb1 black-90">Adam Cuppy</h3>
+  <h2 class="f6 fw4 mt0 mb3">
+    <a class="link dark-pink fw5" target="_blank" href="http://twitter.com/@AdamCuppy">@AdamCuppy</a>
+  </h2>
+  <h3 class="mt1 mb1 fw5">Difficult Conversations</h3>
+  <p class="f5 lh-copy ma0 mb2">
+    It’s never easy to have a tough conversations, and they never go away. T...
+  </p>
+  <div>
+    <a href="#modal-5" data-modal-open class="link dark-pink f6">Read More</a>
+  </div>
+  <div id="modal-5" class="modal-hider">
+    <div class="bg-scattered-rubies h5 flex flex-column items-center justify-center">
+        <div class="w4 h4 mb3">
+          <div class="aspect-ratio aspect-ratio--1x1">
+            <div class="aspect-ratio--object cover bg-center br-100" style="background-image:url(images/speakers/adam-cuppy.jpg);"></div>
+          </div>
+        </div>
+      <h1 class="f3 f2-l ma0 white">Adam Cuppy</h1>
+      <a class="link dark-pink fw5 db mt2" target="_blank" href="http://twitter.com/@AdamCuppy">@AdamCuppy</a>
+      <h2 class="f6 fw5 mt2 mb0 ttu tracked white"> </h2>
+    </div>
+    <div class="pa3 pa4-l modal-body">
+      <div class="mb3">
+        <h3 class="f5 b mt0 mb2">Biography</h3>
+        <p class="measure lh-copy ma0">Master of Smile Generation. Ambassador of Company Culture. Tech Entreprenur. Speaker/Educator. One-time Professional Actor @osfashland. Husband. Chief Zealous Officer @CodingZeal</p>
+      </div>
+      <div>
+        <h3 class="f5 b mt0 mb2">Difficult Conversations</h3>
+        <p class="measure lh-copy ma0">It’s never easy to have a tough conversations, and they never go away. Therefore, I see a better way to live with them, and I want everyone to hear it: empower yourself to understand why we do what we do so you can effect change. Understanding creates empathy. Empathy reduces (not eliminates) conflict. This talk is a practical course on the triad of human psychology: language, physiology and focus. I’ll walk through simple strategies that lower stress, create empathy and manage emotions. </p>
+      </div>
+    </div>
+  </div>
+</article>
+
+      <article class="w-100 w-50-m w-25-ns pa2 mb4">
+    <div class="aspect-ratio aspect-ratio--16x9 mb4">
+      <div class="aspect-ratio--object cover bg-center" style="background-image:url(images/speakers/brooks-swinnerton.jpg);"></div>
+    </div>
+  <h3 class="f3-ns mb1 black-90">Brooks Swinnerton</h3>
+  <h2 class="f6 fw4 mt0 mb3">
+    <a class="link dark-pink fw5" target="_blank" href="http://twitter.com/@bswinnerton">@bswinnerton</a>
+  </h2>
+  <h3 class="mt1 mb1 fw5">Optimizing for API consumers with GraphQL</h3>
+  <p class="f5 lh-copy ma0 mb2">
+    GraphQL is an exciting new query language that's transforming the way we...
+  </p>
+  <div>
+    <a href="#modal-6" data-modal-open class="link dark-pink f6">Read More</a>
+  </div>
+  <div id="modal-6" class="modal-hider">
+    <div class="bg-scattered-rubies h5 flex flex-column items-center justify-center">
+        <div class="w4 h4 mb3">
+          <div class="aspect-ratio aspect-ratio--1x1">
+            <div class="aspect-ratio--object cover bg-center br-100" style="background-image:url(images/speakers/brooks-swinnerton.jpg);"></div>
+          </div>
+        </div>
+      <h1 class="f3 f2-l ma0 white">Brooks Swinnerton</h1>
+      <a class="link dark-pink fw5 db mt2" target="_blank" href="http://twitter.com/@bswinnerton">@bswinnerton</a>
+      <h2 class="f6 fw5 mt2 mb0 ttu tracked white"> </h2>
+    </div>
+    <div class="pa3 pa4-l modal-body">
+      <div class="mb3">
+        <h3 class="f5 b mt0 mb2">Biography</h3>
+        <p class="measure lh-copy ma0">Brooks Swinnerton is a Brooklyn based Platform Engineer at GitHub where he works on their REST API, webhooks and GraphQL API.</p>
+      </div>
+      <div>
+        <h3 class="f5 b mt0 mb2">Optimizing for API consumers with GraphQL</h3>
+        <p class="measure lh-copy ma0">GraphQL is an exciting new query language that's transforming the way we think about APIs. Used in production by Facebook, GitHub, and Shopify, it challenges RESTful API design by empowering consumers to query for exactly the information they need. In this talk, I will give an introduction to the query language, how GitHub uses it internally with Ruby and Rails, and the lessons they learned launching their GraphQL API externally.</p> </p>
+      </div>
+    </div>
+  </div>
+</article>
+
+      <article class="w-100 w-50-m w-25-ns pa2 mb4">
+    <div class="aspect-ratio aspect-ratio--16x9 mb4">
+      <div class="aspect-ratio--object cover bg-center" style="background-image:url(images/speakers/panayiotis-thomakos.jpg);"></div>
+    </div>
+  <h3 class="f3-ns mb1 black-90">Panayiotis Thomakos</h3>
+  <h2 class="f6 fw4 mt0 mb3">
+    <a class="link dark-pink fw5" target="_blank" href="http://twitter.com/@panthomakos">@panthomakos</a>
+  </h2>
+  <h3 class="mt1 mb1 fw5">Developer Productivity Engineering</h3>
+  <p class="f5 lh-copy ma0 mb2">
+    Ruby is often praised for being a happy language. For highly motivated d...
+  </p>
+  <div>
+    <a href="#modal-7" data-modal-open class="link dark-pink f6">Read More</a>
+  </div>
+  <div id="modal-7" class="modal-hider">
+    <div class="bg-scattered-rubies h5 flex flex-column items-center justify-center">
+        <div class="w4 h4 mb3">
+          <div class="aspect-ratio aspect-ratio--1x1">
+            <div class="aspect-ratio--object cover bg-center br-100" style="background-image:url(images/speakers/panayiotis-thomakos.jpg);"></div>
+          </div>
+        </div>
+      <h1 class="f3 f2-l ma0 white">Panayiotis Thomakos</h1>
+      <a class="link dark-pink fw5 db mt2" target="_blank" href="http://twitter.com/@panthomakos">@panthomakos</a>
+      <h2 class="f6 fw5 mt2 mb0 ttu tracked white"> </h2>
+    </div>
+    <div class="pa3 pa4-l modal-body">
+      <div class="mb3">
+        <h3 class="f5 b mt0 mb2">Biography</h3>
+        <p class="measure lh-copy ma0">Pan Thomakos is a productivity engineer at Strava, where he has been working with Ruby for the past 8 years. He spends most of his time automating manual tasks and developing ways to improve engineering processes. Among his other projects, Pan created Strava's deployment script and continuous integration and build services. He is originally from Greece and spends his free time running, cooking, and wrestling with his kids.</p>
+      </div>
+      <div>
+        <h3 class="f5 b mt0 mb2">Developer Productivity Engineering</h3>
+        <p class="measure lh-copy ma0">Ruby is often praised for being a happy language. For highly motivated developers, a large part of happiness is tied to being productive. How can we extend the productivity gains we experience from writing Ruby to an entire engineering organization? At Strava we are experimenting with a framework we call Developer Productivity Engineering (DPE). DPE applies the principles of Site Reliability Engineering, developed by Google, to improving productivity through automation for both individual engineers and engineering organizations. This talk is a detailed view of the DPE framework and our experience with it so far. </p>
+      </div>
+    </div>
+  </div>
+</article>
+
+      <article class="w-100 w-50-m w-25-ns pa2 mb4">
+    <div class="aspect-ratio aspect-ratio--16x9 mb4">
+      <div class="aspect-ratio--object cover bg-center" style="background-image:url(images/speakers/ross-kaffenberger.jpg);"></div>
+    </div>
+  <h3 class="f3-ns mb1 black-90">Ross Kaffenberger</h3>
+  <h2 class="f6 fw4 mt0 mb3">
+    <a class="link dark-pink fw5" target="_blank" href="http://twitter.com/@rossta">@rossta</a>
+  </h2>
+  <h3 class="mt1 mb1 fw5">Scars: On handling adversity</h3>
+  <p class="f5 lh-copy ma0 mb2">
+    As much as we'd like our programming careers to be filled with great suc...
+  </p>
+  <div>
+    <a href="#modal-8" data-modal-open class="link dark-pink f6">Read More</a>
+  </div>
+  <div id="modal-8" class="modal-hider">
+    <div class="bg-scattered-rubies h5 flex flex-column items-center justify-center">
+        <div class="w4 h4 mb3">
+          <div class="aspect-ratio aspect-ratio--1x1">
+            <div class="aspect-ratio--object cover bg-center br-100" style="background-image:url(images/speakers/ross-kaffenberger.jpg);"></div>
+          </div>
+        </div>
+      <h1 class="f3 f2-l ma0 white">Ross Kaffenberger</h1>
+      <a class="link dark-pink fw5 db mt2" target="_blank" href="http://twitter.com/@rossta">@rossta</a>
+      <h2 class="f6 fw5 mt2 mb0 ttu tracked white"> </h2>
+    </div>
+    <div class="pa3 pa4-l modal-body">
+      <div class="mb3">
+        <h3 class="f5 b mt0 mb2">Biography</h3>
+        <p class="measure lh-copy ma0">Notably, I emcee'd the end-of-year talent show at Jackson Middle School in Houston, TX during my second year of Teach for America. Since then I moved to New York and discovered programming, among other things. I'm now learning how to be a dad to my baby boy, Jasper.</p>
+      </div>
+      <div>
+        <h3 class="f5 b mt0 mb2">Scars: On handling adversity</h3>
+        <p class="measure lh-copy ma0">As much as we'd like our programming careers to be filled with great success, it's more than likely we'll encounter setbacks along the way. We may have to deal with impossible clients or projects, imposter syndrome, confusion, self-doubt, and maybe much worse. Perhaps there's a bright side to failure. Let's take a close look at our scars and examine how they can help make us stronger. </p>
+      </div>
+    </div>
+  </div>
+</article>
+
+      <article class="w-100 w-50-m w-25-ns pa2 mb4">
+    <div class="aspect-ratio aspect-ratio--16x9 mb4">
+      <div class="aspect-ratio--object cover bg-center" style="background-image:url(images/speakers/sam-phippen.png);"></div>
+    </div>
+  <h3 class="f3-ns mb1 black-90">Sam Phippen</h3>
+  <h2 class="f6 fw4 mt0 mb3">
+    <a class="link dark-pink fw5" target="_blank" href="http://twitter.com/@samphippen">@samphippen</a>
+  </h2>
+  <h3 class="mt1 mb1 fw5">Type. Context.</h3>
+  <p class="f5 lh-copy ma0 mb2">
+    Every language has at least one big idea behind it. In Ruby we cherish t...
+  </p>
+  <div>
+    <a href="#modal-9" data-modal-open class="link dark-pink f6">Read More</a>
+  </div>
+  <div id="modal-9" class="modal-hider">
+    <div class="bg-scattered-rubies h5 flex flex-column items-center justify-center">
+        <div class="w4 h4 mb3">
+          <div class="aspect-ratio aspect-ratio--1x1">
+            <div class="aspect-ratio--object cover bg-center br-100" style="background-image:url(images/speakers/sam-phippen.png);"></div>
+          </div>
+        </div>
+      <h1 class="f3 f2-l ma0 white">Sam Phippen</h1>
+      <a class="link dark-pink fw5 db mt2" target="_blank" href="http://twitter.com/@samphippen">@samphippen</a>
+      <h2 class="f6 fw5 mt2 mb0 ttu tracked white"> </h2>
+    </div>
+    <div class="pa3 pa4-l modal-body">
+      <div class="mb3">
+        <h3 class="f5 b mt0 mb2">Biography</h3>
+        <p class="measure lh-copy ma0">Sam Phippen is a swashbuckling hacker, from London UK. He lives in New York City now, working for DigitalOcean. He's a member of the RSpec core team. He's ✨ Your Pal Sam ✨. He's sad that he can't hug every cat.</p>
+      </div>
+      <div>
+        <h3 class="f5 b mt0 mb2">Type. Context.</h3>
+        <p class="measure lh-copy ma0">Every language has at least one big idea behind it. In Ruby we cherish the powers of abstraction in the language and the conventions of Rails. Experienced Ruby programmers lean on these ideas without a thought. Imagine my surprise when I changed jobs, stopped programming Ruby full time, and those ideas were nowhere around. This talk is the antidote to the 'x language is cool talk'; It's a talk where you'll learn about the ideas behind a couple of current hot languages. You'll learn how new languages change the way you program. We'll find some gaps in Ruby and bring some neat stuff back. </p>
+      </div>
+    </div>
+  </div>
+</article>
+
+      <article class="w-100 w-50-m w-25-ns pa2 mb4">
+    <div class="aspect-ratio aspect-ratio--16x9 mb4">
+      <div class="aspect-ratio--object cover bg-center" style="background-image:url(images/speakers/justin-gordon.jpg);"></div>
+    </div>
+  <h3 class="f3-ns mb1 black-90">Justin Gordon</h3>
+  <h2 class="f6 fw4 mt0 mb3">
+    <a class="link dark-pink fw5" target="_blank" href="http://twitter.com/@railsonmaui">@railsonmaui</a>
+  </h2>
+  <h3 class="mt1 mb1 fw5">Front-End Sadness to Happiness: The React on Rails Story</h3>
+  <p class="f5 lh-copy ma0 mb2">
+    Standard Rails development made me happy like no other programming parad...
+  </p>
+  <div>
+    <a href="#modal-10" data-modal-open class="link dark-pink f6">Read More</a>
+  </div>
+  <div id="modal-10" class="modal-hider">
+    <div class="bg-scattered-rubies h5 flex flex-column items-center justify-center">
+        <div class="w4 h4 mb3">
+          <div class="aspect-ratio aspect-ratio--1x1">
+            <div class="aspect-ratio--object cover bg-center br-100" style="background-image:url(images/speakers/justin-gordon.jpg);"></div>
+          </div>
+        </div>
+      <h1 class="f3 f2-l ma0 white">Justin Gordon</h1>
+      <a class="link dark-pink fw5 db mt2" target="_blank" href="http://twitter.com/@railsonmaui">@railsonmaui</a>
+      <h2 class="f6 fw5 mt2 mb0 ttu tracked white"> </h2>
+    </div>
+    <div class="pa3 pa4-l modal-body">
+      <div class="mb3">
+        <h3 class="f5 b mt0 mb2">Biography</h3>
+        <p class="measure lh-copy ma0">Aloha! Inspired by the Ruby on Rails Community, Justin began blogging on http://www.railsonmaui.com. A burning desire to bring happiness to Rails front-end development led to the open source project React on Rails. Besides open source, he’s the founder and CEO of http://www.shakacode.com and https://www.friendsandguests.com. Justin has a bachelor’s degree from Harvard and an MBA from UC Berkeley. Free Time: Surfing and other sports in Hawaii!</p>
+      </div>
+      <div>
+        <h3 class="f5 b mt0 mb2">Front-End Sadness to Happiness: The React on Rails Story</h3>
+        <p class="measure lh-copy ma0">Standard Rails development made me happy like no other programming paradigm in my career. Simple front-end development with standard Rails and a sprinkling of jQuery was 'OK' Then, in 2014, I had to build a front-end that dynamically updated like a desktop app. I knew there had to be something better, and I went down the rabbit hole of integrating React with Rails using Webpack. Come find out how my obsessive pursuit of “developer happiness” for the Rails front-end eventually drove me to start the React on Rails gem, the most popular integration of Rails with React using Webpack </p>
+      </div>
+    </div>
+  </div>
+</article>
+
+      <article class="w-100 w-50-m w-25-ns pa2 mb4">
+    <div class="aspect-ratio aspect-ratio--16x9 mb4">
+      <div class="aspect-ratio--object cover bg-center" style="background-image:url(images/speakers/andrew-metcalf.jpg);"></div>
+    </div>
+  <h3 class="f3-ns mb1 black-90">Andrew Metcalf</h3>
+  <h2 class="f6 fw4 mt0 mb3">
+    <a class="link dark-pink fw5" target="_blank" href="http://twitter.com/@agmetcalf">@agmetcalf</a>
+  </h2>
+  <h3 class="mt1 mb1 fw5">How to load 1m lines of Ruby in 5s</h3>
+  <p class="f5 lh-copy ma0 mb2">
+    Applications written in Ruby, Python and several other popular dynamic l...
+  </p>
+  <div>
+    <a href="#modal-11" data-modal-open class="link dark-pink f6">Read More</a>
+  </div>
+  <div id="modal-11" class="modal-hider">
+    <div class="bg-scattered-rubies h5 flex flex-column items-center justify-center">
+        <div class="w4 h4 mb3">
+          <div class="aspect-ratio aspect-ratio--1x1">
+            <div class="aspect-ratio--object cover bg-center br-100" style="background-image:url(images/speakers/andrew-metcalf.jpg);"></div>
+          </div>
+        </div>
+      <h1 class="f3 f2-l ma0 white">Andrew Metcalf</h1>
+      <a class="link dark-pink fw5 db mt2" target="_blank" href="http://twitter.com/@agmetcalf">@agmetcalf</a>
+      <h2 class="f6 fw5 mt2 mb0 ttu tracked white"> </h2>
+    </div>
+    <div class="pa3 pa4-l modal-body">
+      <div class="mb3">
+        <h3 class="f5 b mt0 mb2">Biography</h3>
+        <p class="measure lh-copy ma0">Andrew Metcalf is an engineer at Stripe, where he works on making large Ruby codebases fast, safe, and predictable to work with.</p>
+      </div>
+      <div>
+        <h3 class="f5 b mt0 mb2">How to load 1m lines of Ruby in 5s</h3>
+        <p class="measure lh-copy ma0">Applications written in Ruby, Python and several other popular dynamic languages become very slow to boot as they grow to millions of lines of code. Waiting to reload code in development becomes a major frustration and drain on productivity. This talk will discuss how we reduced the time to boot a service at Stripe from 35s to 5s by statically analyzing dependencies in our codebase to drive an autoloader. </p>
+      </div>
+    </div>
+  </div>
+</article>
+
+      <article class="w-100 w-50-m w-25-ns pa2 mb4">
+    <div class="aspect-ratio aspect-ratio--16x9 mb4">
+      <div class="aspect-ratio--object cover bg-center" style="background-image:url(images/speakers/veronica-lopez.jpg);"></div>
+    </div>
+  <h3 class="f3-ns mb1 black-90">Verónica López</h3>
+  <h2 class="f6 fw4 mt0 mb3">
+    <a class="link dark-pink fw5" target="_blank" href="http://twitter.com/@maria_fibonacci">@maria_fibonacci</a>
+  </h2>
+  <h3 class="mt1 mb1 fw5">Beyond OSS</h3>
+  <p class="f5 lh-copy ma0 mb2">
+    As software engineers, we're constantly encouraged to contribute to Open...
+  </p>
+  <div>
+    <a href="#modal-12" data-modal-open class="link dark-pink f6">Read More</a>
+  </div>
+  <div id="modal-12" class="modal-hider">
+    <div class="bg-scattered-rubies h5 flex flex-column items-center justify-center">
+        <div class="w4 h4 mb3">
+          <div class="aspect-ratio aspect-ratio--1x1">
+            <div class="aspect-ratio--object cover bg-center br-100" style="background-image:url(images/speakers/veronica-lopez.jpg);"></div>
+          </div>
+        </div>
+      <h1 class="f3 f2-l ma0 white">Verónica López</h1>
+      <a class="link dark-pink fw5 db mt2" target="_blank" href="http://twitter.com/@maria_fibonacci">@maria_fibonacci</a>
+      <h2 class="f6 fw5 mt2 mb0 ttu tracked white"> </h2>
+    </div>
+    <div class="pa3 pa4-l modal-body">
+      <div class="mb3">
+        <h3 class="f5 b mt0 mb2">Biography</h3>
+        <p class="measure lh-copy ma0">I'm a former physicist turned computer scientist who currently finds joy working with distributed systems with Go, and trying to make physics and computer science converge. Proud Mexican and tea junkie.</p>
+      </div>
+      <div>
+        <h3 class="f5 b mt0 mb2">Beyond OSS</h3>
+        <p class="measure lh-copy ma0">As software engineers, we're constantly encouraged to contribute to Open Source as a means of learning and giving back to our communities. However, this vision can alienate newcomers from different backgrounds. To fight this back, in this talk I'll explain why this happens, and I will share different ideas that can lead us to foster real diversity in our communities and workplaces. </p>
+      </div>
+    </div>
+  </div>
+</article>
+
+  </div>
+</section>
+<div class="modal">
+  <div class="modal-inner">
+    <a data-modal-close class="bg-transparent absolute top-0 right-0 ma2 w2">
+      <img src="/images/close.svg" alt="Close" />
+    </a>
+    <div class="modal-content"></div>
+  </div>
+</div>
+
+<!-- <section class="pa4 pa4-m pa5-l relative overflow-hidden bg-scattered-rubies-dark" id="sponsors">
+  <div class="mb4">
+    <h3 class="f4 f2-ns ma0 bt bw2 b--black pt3 dib">Sponsors</h3>
+  </div>
+  <div class="mw8-l center tc">
+    <div class="mb4">
+      <h4 class="f3 mt0 mb3 fw5">Platinum</h4>
+      <div class="w-100 pa2">
+        <figure class="ma0">
+          <div class="aspect-ratio aspect-ratio--16x9">
+            <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
+          </div>
+        </figure>
+      </div>
+    </div>
+    <div class="mb4">
+      <h4 class="f3 mt0 mb3 fw5">Gold</h4>
+      <div class="flex flex-wrap nl2">
+        <div class="w-100 w-50-l pa2">
+          <figure class="ma0">
+            <div class="aspect-ratio aspect-ratio--16x9">
+              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
+            </div>
+          </figure>
+        </div>
+        <div class="w-100 w-50-l pa2">
+          <figure class="ma0">
+            <div class="aspect-ratio aspect-ratio--16x9">
+              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
+            </div>
+          </figure>
+        </div>
+        <div class="w-100 w-50-l pa2">
+          <figure class="ma0">
+            <div class="aspect-ratio aspect-ratio--16x9">
+              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <div class="mb4">
+      <h4 class="f3 mt0 mb3 fw5">Silver</h4>
+      <div class="flex flex-wrap">
+        <div class="w-50 w-third-l pa2">
+          <figure class="ma0">
+            <div class="aspect-ratio aspect-ratio--16x9">
+              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
+            </div>
+          </figure>
+        </div>
+        <div class="w-50 w-third-l pa2">
+          <figure class="ma0">
+            <div class="aspect-ratio aspect-ratio--16x9">
+              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
+            </div>
+          </figure>
+        </div>
+        <div class="w-50 w-third-l pa2">
+          <figure class="ma0">
+            <div class="aspect-ratio aspect-ratio--16x9">
+              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
+            </div>
+          </figure>
+        </div>
+        <div class="w-50 w-third-l pa2">
+          <figure class="ma0">
+            <div class="aspect-ratio aspect-ratio--16x9">
+              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
+            </div>
+          </figure>
+        </div>
+        <div class="w-50 w-third-l pa2">
+          <figure class="ma0">
+            <div class="aspect-ratio aspect-ratio--16x9">
+              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
+            </div>
+          </figure>
+        </div>
+        <div class="w-50 w-third-l pa2">
+          <figure class="ma0">
+            <div class="aspect-ratio aspect-ratio--16x9">
+              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <div class="mb4">
+      <h4 class="f3 mt0 mb3 fw5">Bronze</h4>
+      <div class="flex flex-wrap">
+        <div class="w-50 w-25-l pa2">
+          <figure class="ma0">
+            <div class="aspect-ratio aspect-ratio--16x9">
+              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
+            </div>
+          </figure>
+        </div>
+        <div class="w-50 w-25-l pa2">
+          <figure class="ma0">
+            <div class="aspect-ratio aspect-ratio--16x9">
+              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
+            </div>
+          </figure>
+        </div>
+        <div class="w-50 w-25-l pa2">
+          <figure class="ma0">
+            <div class="aspect-ratio aspect-ratio--16x9">
+              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
+            </div>
+          </figure>
+        </div>
+        <div class="w-50 w-25-l pa2">
+          <figure class="ma0">
+            <div class="aspect-ratio aspect-ratio--16x9">
+              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
+            </div>
+          </figure>
+        </div>
+        <div class="w-50 w-25-l pa2">
+          <figure class="ma0">
+            <div class="aspect-ratio aspect-ratio--16x9">
+              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
+            </div>
+          </figure>
+        </div>
+        <div class="w-50 w-25-l pa2">
+          <figure class="ma0">
+            <div class="aspect-ratio aspect-ratio--16x9">
+              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
+            </div>
+          </figure>
+        </div>
+        <div class="w-50 w-25-l pa2">
+          <figure class="ma0">
+            <div class="aspect-ratio aspect-ratio--16x9">
+              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
+            </div>
+          </figure>
+        </div>
+        <div class="w-50 w-25-l pa2">
+          <figure class="ma0">
+            <div class="aspect-ratio aspect-ratio--16x9">
+              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ -->
+<section class="pa4 pa4-m pa5-l" id="organizers">
+  <div class="mb4">
+    <h3 class="f4 f2-ns ma0 bt bw2 b--black pt3 dib">Organizers</h3>
+  </div>
+  <div class="flex flex-wrap">
+      <div class="flex items-center w-50 w-25-l mb4">
+  <div style="min-width: 2rem">
+    <div class="aspect-ratio aspect-ratio--1x1">
+        <div class="aspect-ratio--object cover br-100" style="background:url(images/organizers/austen-ito.jpg) center;"></div>
+    </div>
+  </div>
+  <div class="ml2 break-word">
+    <h1 class="f6 f5-ns fw6 lh-title black mv0">Austen Ito</h1>
+    <h2 class="f6 fw4 mt0 mb0">
+      <a class="link dark-pink" href="https://twitter.com/@austenito" target="_blank">@austenito</a>
+    </h2>
+  </div>
+</div>
+
+      <div class="flex items-center w-50 w-25-l mb4">
+  <div style="min-width: 2rem">
+    <div class="aspect-ratio aspect-ratio--1x1">
+        <div class="aspect-ratio--object cover br-100" style="background:url(images/organizers/jesse-chan-norris.jpg) center;"></div>
+    </div>
+  </div>
+  <div class="ml2 break-word">
+    <h1 class="f6 f5-ns fw6 lh-title black mv0">Jesse Chan-Norris</h1>
+    <h2 class="f6 fw4 mt0 mb0">
+      <a class="link dark-pink" href="https://twitter.com/@jcn" target="_blank">@jcn</a>
+    </h2>
+  </div>
+</div>
+
+      <div class="flex items-center w-50 w-25-l mb4">
+  <div style="min-width: 2rem">
+    <div class="aspect-ratio aspect-ratio--1x1">
+        <div class="aspect-ratio--object cover br-100" style="background:url(images/organizers/joe-leo.jpg) center;"></div>
+    </div>
+  </div>
+  <div class="ml2 break-word">
+    <h1 class="f6 f5-ns fw6 lh-title black mv0">Joe Leo</h1>
+    <h2 class="f6 fw4 mt0 mb0">
+      <a class="link dark-pink" href="https://twitter.com/@jleo3" target="_blank">@jleo3</a>
+    </h2>
+  </div>
+</div>
+
+      <div class="flex items-center w-50 w-25-l mb4">
+  <div style="min-width: 2rem">
+    <div class="aspect-ratio aspect-ratio--1x1">
+        <div class="aspect-ratio--object cover br-100" style="background:url(images/organizers/luke-melia.jpg) center;"></div>
+    </div>
+  </div>
+  <div class="ml2 break-word">
+    <h1 class="f6 f5-ns fw6 lh-title black mv0">Luke Melia</h1>
+    <h2 class="f6 fw4 mt0 mb0">
+      <a class="link dark-pink" href="https://twitter.com/@lukemelia" target="_blank">@lukemelia</a>
+    </h2>
+  </div>
+</div>
+
+      <div class="flex items-center w-50 w-25-l mb4">
+  <div style="min-width: 2rem">
+    <div class="aspect-ratio aspect-ratio--1x1">
+        <div class="aspect-ratio--object cover br-100" style="background:url(images/organizers/mike-dalessio.jpg) center;"></div>
+    </div>
+  </div>
+  <div class="ml2 break-word">
+    <h1 class="f6 f5-ns fw6 lh-title black mv0">Mike Dalessio</h1>
+    <h2 class="f6 fw4 mt0 mb0">
+      <a class="link dark-pink" href="https://twitter.com/@flavorjones" target="_blank">@flavorjones</a>
+    </h2>
+  </div>
+</div>
+
+      <div class="flex items-center w-50 w-25-l mb4">
+  <div style="min-width: 2rem">
+    <div class="aspect-ratio aspect-ratio--1x1">
+        <div class="aspect-ratio--object cover br-100" style="background:url(images/organizers/raquel-hernandez.jpg) center;"></div>
+    </div>
+  </div>
+  <div class="ml2 break-word">
+    <h1 class="f6 f5-ns fw6 lh-title black mv0">Raquel Hernandez</h1>
+    <h2 class="f6 fw4 mt0 mb0">
+      <a class="link dark-pink" href="https://twitter.com/@raqueldotnyc" target="_blank">@raqueldotnyc</a>
+    </h2>
+  </div>
+</div>
+
+      <div class="flex items-center w-50 w-25-l mb4">
+  <div style="min-width: 2rem">
+    <div class="aspect-ratio aspect-ratio--1x1">
+        <div class="aspect-ratio--object cover br-100" style="background:url(images/organizers/ross-cooperman.jpg) center;"></div>
+    </div>
+  </div>
+  <div class="ml2 break-word">
+    <h1 class="f6 f5-ns fw6 lh-title black mv0">Ross Cooperman</h1>
+    <h2 class="f6 fw4 mt0 mb0">
+      <a class="link dark-pink" href="https://twitter.com/@rosscooperman" target="_blank">@rosscooperman</a>
+    </h2>
+  </div>
+</div>
+
+      <div class="flex items-center w-50 w-25-l mb4">
+  <div style="min-width: 2rem">
+    <div class="aspect-ratio aspect-ratio--1x1">
+        <div class="aspect-ratio--object cover br-100" style="background:url(images/organizers/vanessa-sant-anna.jpg) center;"></div>
+    </div>
+  </div>
+  <div class="ml2 break-word">
+    <h1 class="f6 f5-ns fw6 lh-title black mv0">Vanessa Sant'anna</h1>
+    <h2 class="f6 fw4 mt0 mb0">
+      <a class="link dark-pink" href="https://twitter.com/@vsanta" target="_blank">@vsanta</a>
+    </h2>
+  </div>
+</div>
+
+      <div class="flex items-center w-50 w-25-l mb4">
+  <div style="min-width: 2rem">
+    <div class="aspect-ratio aspect-ratio--1x1">
+        <div class="aspect-ratio--object cover br-100" style="background:url(images/organizers/jerred-cook.jpg) center;"></div>
+    </div>
+  </div>
+  <div class="ml2 break-word">
+    <h1 class="f6 f5-ns fw6 lh-title black mv0">Jerred Cook</h1>
+    <h2 class="f6 fw4 mt0 mb0">
+      <a class="link dark-pink" href="https://twitter.com/@jerredcook" target="_blank">@jerredcook</a>
+    </h2>
+  </div>
+</div>
+
+      <div class="flex items-center w-50 w-25-l mb4">
+  <div style="min-width: 2rem">
+    <div class="aspect-ratio aspect-ratio--1x1">
+        <div class="aspect-ratio--object cover br-100" style="background:url(images/organizers/rocio-delgado.jpg) center;"></div>
+    </div>
+  </div>
+  <div class="ml2 break-word">
+    <h1 class="f6 f5-ns fw6 lh-title black mv0">Rocio Delgado</h1>
+    <h2 class="f6 fw4 mt0 mb0">
+      <a class="link dark-pink" href="https://twitter.com/@rokkzy" target="_blank">@rokkzy</a>
+    </h2>
+  </div>
+</div>
+
+      <div class="flex items-center w-50 w-25-l mb4">
+  <div style="min-width: 2rem">
+    <div class="aspect-ratio aspect-ratio--1x1">
+        <div class="aspect-ratio--object cover br-100" style="background:url(images/organizers/lydia-stepanek.png) center;"></div>
+    </div>
+  </div>
+  <div class="ml2 break-word">
+    <h1 class="f6 f5-ns fw6 lh-title black mv0">Lydia Stepanek</h1>
+    <h2 class="f6 fw4 mt0 mb0">
+      <a class="link dark-pink" href="https://twitter.com/@LydiaStepanek" target="_blank">@LydiaStepanek</a>
+    </h2>
+  </div>
+</div>
+
+      <div class="flex items-center w-50 w-25-l mb4">
+  <div style="min-width: 2rem">
+    <div class="aspect-ratio aspect-ratio--1x1">
+        <div class="aspect-ratio--object cover br-100" style="background:url(images/organizers/sebastien-delmont.jpeg) center;"></div>
+    </div>
+  </div>
+  <div class="ml2 break-word">
+    <h1 class="f6 f5-ns fw6 lh-title black mv0">Sebastian Delmont</h1>
+    <h2 class="f6 fw4 mt0 mb0">
+      <a class="link dark-pink" href="https://twitter.com/@sd" target="_blank">@sd</a>
+    </h2>
+  </div>
+</div>
+
+      <div class="flex items-center w-50 w-25-l mb4">
+  <div style="min-width: 2rem">
+    <div class="aspect-ratio aspect-ratio--1x1">
+        <div class="aspect-ratio--object cover br-100" style="background:url(images/organizers/rob-jones.jpg) center;"></div>
+    </div>
+  </div>
+  <div class="ml2 break-word">
+    <h1 class="f6 f5-ns fw6 lh-title black mv0">Robert Jones</h1>
+    <h2 class="f6 fw4 mt0 mb0">
+      <a class="link dark-pink" href="https://twitter.com/@robbieejones" target="_blank">@robbieejones</a>
+    </h2>
+  </div>
+</div>
+
+      <div class="flex items-center w-50 w-25-l mb4">
+  <div style="min-width: 2rem">
+    <div class="aspect-ratio aspect-ratio--1x1">
+        <div class="aspect-ratio--object cover br-100" style="background:url(images/organizers/matt-rothenberg.jpg) center;"></div>
+    </div>
+  </div>
+  <div class="ml2 break-word">
+    <h1 class="f6 f5-ns fw6 lh-title black mv0">Matt Rothenberg</h1>
+    <h2 class="f6 fw4 mt0 mb0">
+      <a class="link dark-pink" href="https://twitter.com/@mattrothenberg" target="_blank">@mattrothenberg</a>
+    </h2>
+  </div>
+</div>
+
+  </div>
+</section>
+<footer class="bg-scattered-rubies ph4 pt2 pb4">
+  <form class="mw7 center pa2 pa4-l br2-ns ba b--black-10 mb4 validate" action="//goruco.us2.list-manage.com/subscribe/post?u=00945f50a161df14372a84a34&amp;id=cdf39163af" form.signup-form action="//goruco.us2.list-manage.com/subscribe/post?u=00945f50a161df14372a84a34&amp;id=cdf39163af" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate">
+    <fieldset class="cf bn ma0 pa0">
+      <legend class="pa0 f5 f4-ns mb3 white">Sign up for conference updates</legend>
+      <div class="cf">
+        <label class="clip" for="email-address">Email Address</label>
+        <input class="f6 f5-l input-reset bn fl black-80 bg-white pa3 lh-solid w-100 w-75-m w-80-l br2-ns br--left-ns" type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Enter Email Address">
+        <input class="f6 f5-l fw6 button-reset fl pv3 tc bn bg-dark-pink white pointer w-100 w-25-m w-20-l br2-ns br--right-ns" type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe">
+      </div>
+      <div style="position: absolute; left: -5000px;">
+        <input name="b_00945f50a161df14372a84a34_cdf39163af" tabindex="-1" type="text" value="">
+      </div>
+    </fieldset>
+  </form>
+
+  <div class="flex-l justify-between mb3">
+    <div class="flex-l items-center mb4 mb0-l">
+      <h4 class="mt0 white mb2 mb0-l mr3-ns">Past Years</h4>
+      <ul class="list pl0 mv0">
+        <li class="dib mr2"><a target="_blank" href="http://2009.goruco.com/" class="fw5 db pr2 link dim white">2009</a></li>
+        <li class="dib mr2"><a target="_blank" href="http://2011.goruco.com/" class="fw5 db pr2 link dim white">2011</a></li>
+        <li class="dib mr2"><a target="_blank" href="http://2015.goruco.com/" class="fw5 db pr2 link dim white">2015</a></li>
+        <li class="dib mr2"><a target="_blank" href="http://2016.goruco.com/" class="fw5 db pr2 link dim white">2016</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="ma0 white">© 2017 GORUCO</h4>
+    </div>
+  </div>
+  <div class="bt b--white pb3">
+    <p class="white f4 measure-wide">The GORUCO organizers strive for the safety and comfort of everyone at our event. For more information, please read our <a class="pink fw5 link" target="_blank" href="/code-of-conduct">Code of Conduct</a>.</p>
+    <p class="white f4 measure-wide mb0">Questions? Email us at <a href="mailto:info@goruco.com" class="link pink fw5">info@goruco.com</a> or tweet us at <a href="http://twitter.com/@goruco" target="_blank" class="link pink fw5">@goruco</a>.</p>
+  </div>
+</footer>
+
+<script src="/javascripts/site.js"></script>
+
+  </body>
+</html>
