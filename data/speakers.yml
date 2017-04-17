@@ -21,11 +21,11 @@ speakers:
     bio: "Alex Qin is a Brooklyn based software engineer and educator. She cares deeply about access to computer science education, and about leveraging technology to create positive social change. She works at Skillshare, where she leads the Web Engineering Team and co-organizes Codeshare, an inclusive and intimate gathering for those interested in the intersection of code, creativity, and art. She is also the founder and lead teacher of the Code Cooperative, an open source educational program in which former inmates learn to code as a means to creating social change."
     synopsis: "How do perceptions and stereotypes affect those in software and on engineering teams? This talk tells the true story of how I hacked my appearance, by shaving my head, to change the way I was perceived as a programmer. This talk also serves as a primer on unconscious bias and stereotype threat, and their effects on individuals and teams. I will provide actionable advice on how to make engineering teams more inclusive, more diverse, and thusly more productive, successful, and attractive to potential hires."
   - name: Ryan Findley
-    photo:
+    photo: 'ryan-findley.jpg'
     handle: "@neomindryan"
     hometown:
     talk: "Object Oriented Thinking with Elixir and OTP"
-    bio: "Ryan Findley is the Founder of Neomind Labs, a professional software developer of over 15 years, a husband, and father. Ryan has been building and integrating custom solutions since the early 90s. Neomind Labs specializes in software stewardship with a focus on Ruby, Rails, and JavaScript. Neomind has built and maintained software systems for clients in the US that serve a global audience of customers, including academic and medical institutions, Fortune 500 companies, and non-profit orgs."
+    bio: "Ryan Findley, a professional software developer of over 15 years, builds and looks after custom software solutions. Ryan founded Neomind Labs in 2002. Neomind Labs, a Philadelphia-based, privately owned company, specializes in software stewardship with a focus on Ruby, Rails, and JavaScript. Neomind has built and maintained software systems for a variety of US clients that serve a global audience of customers, including academic and medical institutions, Fortune 500 companies, startups, and non-profits."
     synopsis: "Processes in Erlang / Elixir resemble objects in many ways. Some even argue that Erlang processes and the Actor Model are a purer form of object-orientation. The Elixir community has a large contingent of Rubyists that have extended many of the core values (and joys) of Ruby into the world of Elixir. This talk exposes some of the reasons why while providing a starting point for further learning"
   - name: Liz Baillie
     photo: 'liz-baillie.jpg'
