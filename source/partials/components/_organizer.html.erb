@@ -1,0 +1,17 @@
+<div class="flex items-center w-50 w-25-l mb4">
+  <div style="min-width: 2rem">
+    <div class="aspect-ratio aspect-ratio--1x1">
+      <% if photo.nil? %>
+        <div class="aspect-ratio--object cover br-100 bg-goruco-purple"></div>
+      <% else %>
+        <div class="aspect-ratio--object cover br-100" style="background:url(<%= "images/organizers/#{photo}" %>) center;"></div>
+      <% end %>
+    </div>
+  </div>
+  <div class="ml2 break-word">
+    <h1 class="f6 f5-ns fw6 lh-title black mv0"><%= name %></h1>
+    <h2 class="f6 fw4 mt0 mb0">
+      <a class="link dark-pink" href="https://twitter.com/<%= handle %>" target="_blank"><%= handle %></a>
+    </h2>
+  </div>
+</div>

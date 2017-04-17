@@ -1,0 +1,18 @@
+<section class="pa3 pa5-l" id="speakers">
+  <div class="mb3">
+    <h3 class="f4 f2-ns ma0 bt bw2 b--black pt3 dib">Speakers</h3>
+  </div>
+  <div class="flex flex-wrap nl2 nr2">
+    <% data.speakers.speakers.each_with_index do |speaker, index| %>
+      <%= partial('partials/components/speaker', :locals => { :index => index, :name => speaker.name, :photo => speaker.photo, :hometown => speaker.hometown, :talk => speaker.talk, :handle => speaker.handle, :synopsis => speaker.synopsis, :bio => speaker.bio }); %>
+    <% end %>
+  </div>
+</section>
+<div class="modal">
+  <div class="modal-inner">
+    <a data-modal-close class="bg-transparent absolute top-0 right-0 ma2 w2">
+      <%= image_tag 'close.svg' %>
+    </a>
+    <div class="modal-content"></div>
+  </div>
+</div>

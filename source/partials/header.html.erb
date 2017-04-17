@@ -1,0 +1,21 @@
+<nav class="top-navigation" data-gumshoe-header>
+  <div class="flex mobile-menu items-center justify-between dn-l pv3">
+    <h2 class="ma0 white">GORUCO</h2>
+    <button type="button" class="white fw6 button-reset bg-transparent bn flex items-center" id="triggerOverlayMenu">
+      <%= image_tag 'hamburger.svg', class: 'h1 mr1' %>
+      <span class="menu-title f6">Menu</span>
+    </button>
+  </div>
+  <div class="flex items-center justify-between">
+    <ul class="list pl0 dn db-l" data-gumshoe>
+      <!-- <li class="dib mr2"><a data-scroll href="#schedule" class="f4 b db pr3 pb1 no-underline white">Schedule</a></li> -->
+      <li class="dib mr2"><a data-scroll href="#location" class="f4 b db pr3 pb1 no-underline white">Location</a></li>
+      <li class="dib mr2"><a data-scroll href="#speakers" class="f4 b db pr3 pb1 no-underline white">Speakers</a></li>
+      <!-- <li class="dib mr2"><a data-scroll href="#sponsors" class="f4 b db pr3 pb1 no-underline white">Sponsors</a></li> -->
+      <li class="dib mr2"><a data-scroll href="#organizers" class="f4 b db pr3 pb1 no-underline white">Organizers</a></li>
+    </ul>
+    <div>
+      <%= partial('partials/buy-tickets-button', :locals => { :styles => 'ticket-btn dn db-l'} ) %>
+    </div>
+  </div>
+</nav>

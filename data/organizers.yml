@@ -1,0 +1,43 @@
+organizers:
+  - name: Austen Ito
+    photo: 'austen-ito.jpg'
+    handle: "@austenito"
+  - name: Jesse Chan-Norris
+    photo: 'jesse-chan-norris.jpg'
+    handle: "@jcn"
+  - name: Joe Leo
+    photo: 'joe-leo.jpg'
+    handle: "@jleo3"
+  - name: Luke Melia
+    photo: 'luke-melia.jpg'
+    handle: "@lukemelia"
+  - name: Mike Dalessio
+    photo: 'mike-dalessio.jpg'
+    handle: "@flavorjones"
+  - name: Raquel Hernandez
+    photo: 'raquel-hernandez.jpg'
+    handle: "@raqueldotnyc"
+  - name: Ross Cooperman
+    photo: 'ross-cooperman.jpg'
+    handle: "@rosscooperman"
+  - name: Vanessa Sant'anna
+    photo: 'vanessa-sant-anna.jpg'
+    handle: "@vsanta"
+  - name: Jerred Cook
+    photo: 'jerred-cook.jpg'
+    handle: '@jerredcook'
+  - name: Rocio Delgado
+    photo: 'rocio-delgado.jpg'
+    handle: '@rokkzy'
+  - name: Lydia Stepanek
+    photo: 'lydia-stepanek.png'
+    handle: '@LydiaStepanek'
+  - name: 'Sebastian Delmont'
+    photo: 'sebastien-delmont.jpeg'
+    handle: '@sd'
+  - name: 'Robert Jones'
+    photo: 'rob-jones.jpg'
+    handle: '@robbieejones'
+  - name: 'Matt Rothenberg'
+    photo: 'matt-rothenberg.jpg'
+    handle: '@mattrothenberg'

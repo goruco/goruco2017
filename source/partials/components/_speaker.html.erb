@@ -1,0 +1,46 @@
+<article class="w-100 w-50-m w-25-ns pa2 mb4">
+  <% if !photo.nil? %>
+    <div class="aspect-ratio aspect-ratio--16x9 mb4">
+      <div class="aspect-ratio--object cover bg-center" style="background-image:url(images/speakers/<%= photo %>);"></div>
+    </div>
+  <% else %>
+    <div class="aspect-ratio aspect-ratio--16x9 mb4">
+      <div class="aspect-ratio--object cover bg-scattered-rubies"></div>
+    </div>
+  <% end %>
+  <h3 class="f3-ns mb1 black-90"><%= name %></h3>
+  <h2 class="f6 fw4 mt0 mb3">
+    <a class="link dark-pink fw5" target="_blank" href="http://twitter.com/<%= handle %>"><%= handle %></a>
+  </h2>
+  <h3 class="mt1 mb1 fw5"><%= talk %></h3>
+  <p class="f5 lh-copy ma0 mb2">
+    <%= truncate(synopsis, :length => 75) %>
+  </p>
+  <div>
+    <a href="#modal-<%= index %>" data-modal-open class="link dark-pink f6">Read More</a>
+  </div>
+  <div id="modal-<%= index %>" class="modal-hider">
+    <div class="bg-scattered-rubies h5 flex flex-column items-center justify-center">
+      <% if !photo.nil? %>
+        <div class="w4 h4 mb3">
+          <div class="aspect-ratio aspect-ratio--1x1">
+            <div class="aspect-ratio--object cover bg-center br-100" style="background-image:url(images/speakers/<%= photo %>);"></div>
+          </div>
+        </div>
+      <% end %>
+      <h1 class="f3 f2-l ma0 white"><%= name %></h1>
+      <a class="link dark-pink fw5 db mt2" target="_blank" href="http://twitter.com/<%= handle %>"><%= handle %></a>
+      <h2 class="f6 fw5 mt2 mb0 ttu tracked white"> <%= hometown %></h2>
+    </div>
+    <div class="pa3 pa4-l modal-body">
+      <div class="mb3">
+        <h3 class="f5 b mt0 mb2">Biography</h3>
+        <p class="measure lh-copy ma0"><%= bio %></p>
+      </div>
+      <div>
+        <h3 class="f5 b mt0 mb2"><%= talk %></h3>
+        <p class="measure lh-copy ma0"><%= synopsis %> </p>
+      </div>
+    </div>
+  </div>
+</article>

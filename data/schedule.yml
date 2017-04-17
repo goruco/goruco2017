@@ -1,0 +1,44 @@
+morning_schedule:
+  - timeslot: '9:00 AM — 10:00 AM'
+    title: Registration
+    description: Doors open, get your conference badge and some New York breakfast
+  - timeslot: '10:00 AM — 10:30 AM'
+    title: 'Keynote: Code Quality Lessons Learned'
+    description: Bryan Helmkamp (NY)
+  - timeslot: '10:40 AM – 11:10 AM'
+    title: 'The Guest: A Guide To Code Hospitality'
+    description: Nadia Odunayo (UK)
+  - timeslot: 11:35 AM – 12:05 PM
+    title: 'Symmetric API Testing '
+    description: Aditya Mukerjee (NY)
+  - timeslot: 12:15 PM – 12:25 PM
+    title: 'Pipe Operator for Ruby '
+    description: Fabio Akita (Brazil)
+  - timeslot: 12:20 PM – 12:30 PM
+    title: 'Introducing the Crystal Programming Language '
+    description: Will Leinweber (SF)
+  - timeslot: 12:40 PM – 12:50 PM
+    title: 'Ruby Racing: Challenging Ruby Methods '
+    description: Danielle Adams (NY)
+afternoon_schedule:
+  - timeslot: '02:20 PM – 02:50 PM'
+    title: Just a Ruby Minute
+    description: Andrew Faraday (UK)
+  - timeslot: '03:00 PM – 03:10 PM'
+    title: 'Impactful Refactors: Refactoring for Readability'
+    description: Kinsey Ann Durham (Denver)
+  - timeslot: '03:15 PM – 03:25 PM'
+    title: Database performance at scale for RoR and MySQL
+    description: Rocio Delgado (NY)
+  - timeslot: '03:30 PM – 03:40 PM'
+    title: Enumerable’s Ugly Cousin
+    description: Ross Kaffenberger (NY)
+  - timeslot: '04:10 PM – 4:40 PM'
+    title: Big Data with rubygems.org Download Data
+    description: Aja Hammerly (Seattle)
+  - timeslot: '04:50 PM – 5:20 PM'
+    title: 'Keynote: Cult(ure)'
+    description: Aja Hammerly (Seattle)
+  - timeslot: '06:00 PM – 09:00 PM'
+    title: 'After Party'
+    description: Boom!
