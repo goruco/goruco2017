@@ -1,11 +1,4 @@
 speakers:
-  - name: Paul Dix
-    photo: 'paul-dix.jpg'
-    handle: "@pauldix"
-    hometown:
-    talk: "SQL to NoSQL to NewSQL and the rise of polyglot persistence"
-    bio: "Paul Dix is cofounder and CTO of InfluxData, the company behind InfluxDB, the open source time series database. He has helped build software for startups, large companies and organizations like Microsoft, Google, McAfee, Thomson Reuters, and Air Force Space Command. He is the series editor for Addison Wesley's Data & Analytics book and video series. In 2010 Paul wrote the book Service Oriented Design with Ruby and Rails for Addison Wesley's Professional Ruby series."
-    synopsis: "The last ten years have brought many new developments in databases. Previously developers had SQL as the dominant and nearly only paradigm for databases. Then in the mid-aughts the rise of NoSQL databases like MongoDB, Redis, Cassandra, HBase and others brought new paradigms and options to developers. Over the last few years there seems to have been a swing back to NewSQL or scalable databases that support the SQL standard. In this talk we'll look at some of the new database models like document, data structure, time series, and key/value. I'll look at use cases where these different models end up being a better fit for their problem domains than SQL, the previous one true language to rule them all."
   - name: Lauren Ellsworth
     photo: 'lauren-ellsworth.jpg'
     handle: "@redyaffle"
@@ -13,6 +6,13 @@ speakers:
     talk: "What I Learned to Love About Ruby When I Switched to Python"
     bio: "Lauren Ellsworth is a Senior Software Engineer at Flatiron Health, a company working to accelerate cancer research and improve cancer care. In her years of development, Lauren has contributed to a half dozen analytics platforms, software that aids in facial recognition of lions, and foster care case management software, among other projects. Currently, Lauren is scaling engineering on-boarding at Flatiron Health, while developing agile and secure services on the Developer Infrastructure team."
     synopsis: "When I switched from a Ruby based company to a Python based company, things I had taken for granted in my Ruby life were suddenly sorely missed, and the transition to a language with only one way to do the same thing created quite a few bumps in the road. This talks draws parallels between Ruby and Python, spotlighting which brought the most developer happiness, what I miss and love about Ruby, and what Ruby can learn from Python."
+  - name: Paul Dix
+    photo: 'paul-dix.jpg'
+    handle: "@pauldix"
+    hometown:
+    talk: "SQL to NoSQL to NewSQL and the rise of polyglot persistence"
+    bio: "Paul Dix is cofounder and CTO of InfluxData, the company behind InfluxDB, the open source time series database. He has helped build software for startups, large companies and organizations like Microsoft, Google, McAfee, Thomson Reuters, and Air Force Space Command. He is the series editor for Addison Wesley's Data & Analytics book and video series. In 2010 Paul wrote the book Service Oriented Design with Ruby and Rails for Addison Wesley's Professional Ruby series."
+    synopsis: "The last ten years have brought many new developments in databases. Previously developers had SQL as the dominant and nearly only paradigm for databases. Then in the mid-aughts the rise of NoSQL databases like MongoDB, Redis, Cassandra, HBase and others brought new paradigms and options to developers. Over the last few years there seems to have been a swing back to NewSQL or scalable databases that support the SQL standard. In this talk we'll look at some of the new database models like document, data structure, time series, and key/value. I'll look at use cases where these different models end up being a better fit for their problem domains than SQL, the previous one true language to rule them all."
   - name: Alex Qin
     photo: 'alex-qin.jpg'
     handle: "@alexqin"
@@ -41,6 +41,20 @@ speakers:
     talk: "Difficult Conversations"
     bio: "Master of Smile Generation. Ambassador of Company Culture. Tech Entreprenur. Speaker/Educator. One-time Professional Actor @osfashland. Husband. Chief Zealous Officer @CodingZeal"
     synopsis: "It’s never easy to have a tough conversations, and they never go away. Therefore, I see a better way to live with them, and I want everyone to hear it: empower yourself to understand why we do what we do so you can effect change. Understanding creates empathy. Empathy reduces (not eliminates) conflict. This talk is a practical course on the triad of human psychology: language, physiology and focus. I’ll walk through simple strategies that lower stress, create empathy and manage emotions."
+  - name: Verónica López
+    photo: 'veronica-lopez.jpg'
+    handle: "@maria_fibonacci"
+    hometown:
+    talk: "Beyond OSS"
+    bio: "I'm a former physicist turned computer scientist who currently finds joy working with distributed systems with Go, and trying to make physics and computer science converge. Proud Mexican and tea junkie."
+    synopsis: "As software engineers, we're constantly encouraged to contribute to Open Source as a means of learning and giving back to our communities. However, this vision can alienate newcomers from different backgrounds. To fight this back, in this talk I'll explain why this happens, and I will share different ideas that can lead us to foster real diversity in our communities and workplaces."
+  - name: Rebecca Miller-Webster
+    photo: 'rebecca-miller-webster.jpg'
+    handle: "@rmillerwebster"
+    hometown:
+    talk: "Trust & Teams"
+    bio: "Rebecca Miller-Webster is a software engineer, conference organizer, and educator. She is the founder of Write/Speak/Code and Practice Lead at DevMynd. Rebecca has been developing software professionally for over a dozen years, previously organized GORUCO, and was the founding teacher at Dev Bootcamp NYC. Rebecca's hobbies include drinking Cherry Coke Zero, cuddling pugs, and wearing all the colors."
+    synopsis: "Trust is at the core of whether we are happy at work or not. Trust is at the core of whether we like who we work with. Trust is at the core of whether people perceive us to be good at our jobs. But what is trust? How do you know when it's missing? And how do you fix it when it's gone. Let's discuss the elements of trust and the patterns of behavior the make or break trust"
   - name: Brooks Swinnerton
     photo: 'brooks-swinnerton.jpg'
     handle: "@bswinnerton"
@@ -83,17 +97,3 @@ speakers:
     talk: "How to load 1m lines of Ruby in 5s"
     bio: Andrew Metcalf is an engineer at Stripe, where he works on making large Ruby codebases fast, safe, and predictable to work with.
     synopsis: "Applications written in Ruby, Python and several other popular dynamic languages become very slow to boot as they grow to millions of lines of code. Waiting to reload code in development becomes a major frustration and drain on productivity. This talk will discuss how we reduced the time to boot a service at Stripe from 35s to 5s by statically analyzing dependencies in our codebase to drive an autoloader."
-  - name: Verónica López
-    photo: 'veronica-lopez.jpg'
-    handle: "@maria_fibonacci"
-    hometown:
-    talk: "Beyond OSS"
-    bio: "I'm a former physicist turned computer scientist who currently finds joy working with distributed systems with Go, and trying to make physics and computer science converge. Proud Mexican and tea junkie."
-    synopsis: "As software engineers, we're constantly encouraged to contribute to Open Source as a means of learning and giving back to our communities. However, this vision can alienate newcomers from different backgrounds. To fight this back, in this talk I'll explain why this happens, and I will share different ideas that can lead us to foster real diversity in our communities and workplaces."
-  - name: Rebecca Miller-Webster
-    photo: 'rebecca-miller-webster.jpg'
-    handle: "@rmillerwebster"
-    hometown:
-    talk: "Trust & Teams"
-    bio: "Rebecca Miller-Webster is a software engineer, conference organizer, and educator. She is the founder of Write/Speak/Code and Practice Lead at DevMynd. Rebecca has been developing software professionally for over a dozen years, previously organized GORUCO, and was the founding teacher at Dev Bootcamp NYC. Rebecca's hobbies include drinking Cherry Coke Zero, cuddling pugs, and wearing all the colors."
-    synopsis: "Trust is at the core of whether we are happy at work or not. Trust is at the core of whether we like who we work with. Trust is at the core of whether people perceive us to be good at our jobs. But what is trust? How do you know when it's missing? And how do you fix it when it's gone. Let's discuss the elements of trust and the patterns of behavior the make or break trust"
