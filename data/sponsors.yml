@@ -1,0 +1,11 @@
+sponsors:
+  gold:
+    - name: Stride
+      logo: 'stride.png'
+      blurb: 'Stride is an Agile software development consultancy in New York City. We co-locate with engineering teams in New York (like Plated, Paddle8, Gust, Sailthru, XO Group, Intent Media) to help you up your game and get stuff done. Think of us as Agile SWAT teams. We leverage the skills of your entire team and help you improve code quality and your Agile process in perpetuity. Whether you seek process refinement help (TDD, refactoring, microservices, estimates, continuous delivery, and more) or need to get high quality code out the door to launch your MVP, Stride is here to help.'
+      website: 'http://www.stridenyc.com/'
+  silver:
+    - name: Codecademy
+      logo: 'codecademy.svg'
+      blurb: 'Codecademy is an online learning platform that has taught 30 million users worldwide how to code. Our engineering team is small and agile, and our stack includes Ruby, Rails, and React. Our mission is to make technical education accessible to everyone.'
+      website: 'https://www.codecademy.com/'

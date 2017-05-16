@@ -4,147 +4,23 @@
   </div>
   <div class="mw8-l center tc">
     <div class="mb4">
-      <h4 class="f3 mt0 mb3 fw5">Platinum</h4>
-      <div class="w-100 pa2">
-        <figure class="ma0">
-          <div class="aspect-ratio aspect-ratio--16x9">
-            <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
-          </div>
-        </figure>
-      </div>
-    </div>
-    <div class="mb4">
       <h4 class="f3 mt0 mb3 fw5">Gold</h4>
-      <div class="flex flex-wrap nl2">
-        <div class="w-100 w-50-l pa2">
-          <figure class="ma0">
-            <div class="aspect-ratio aspect-ratio--16x9">
-              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
-            </div>
-          </figure>
-        </div>
-        <div class="w-100 w-50-l pa2">
-          <figure class="ma0">
-            <div class="aspect-ratio aspect-ratio--16x9">
-              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
-            </div>
-          </figure>
-        </div>
-        <div class="w-100 w-50-l pa2">
-          <figure class="ma0">
-            <div class="aspect-ratio aspect-ratio--16x9">
-              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
-            </div>
-          </figure>
-        </div>
+      <div class="flex flex-wrap">
+        <% data.sponsors.sponsors.gold.each do |sponsor| %>
+          <div class="w-100 w-50-l">
+            <%= partial('partials/components/sponsor', :locals => { :sponsor => sponsor }) %>
+          </div>
+        <% end %>
       </div>
     </div>
     <div class="mb4">
       <h4 class="f3 mt0 mb3 fw5">Silver</h4>
       <div class="flex flex-wrap">
-        <div class="w-50 w-third-l pa2">
-          <figure class="ma0">
-            <div class="aspect-ratio aspect-ratio--16x9">
-              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
-            </div>
-          </figure>
-        </div>
-        <div class="w-50 w-third-l pa2">
-          <figure class="ma0">
-            <div class="aspect-ratio aspect-ratio--16x9">
-              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
-            </div>
-          </figure>
-        </div>
-        <div class="w-50 w-third-l pa2">
-          <figure class="ma0">
-            <div class="aspect-ratio aspect-ratio--16x9">
-              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
-            </div>
-          </figure>
-        </div>
-        <div class="w-50 w-third-l pa2">
-          <figure class="ma0">
-            <div class="aspect-ratio aspect-ratio--16x9">
-              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
-            </div>
-          </figure>
-        </div>
-        <div class="w-50 w-third-l pa2">
-          <figure class="ma0">
-            <div class="aspect-ratio aspect-ratio--16x9">
-              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
-            </div>
-          </figure>
-        </div>
-        <div class="w-50 w-third-l pa2">
-          <figure class="ma0">
-            <div class="aspect-ratio aspect-ratio--16x9">
-              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
-            </div>
-          </figure>
-        </div>
-      </div>
-    </div>
-    <div class="mb4">
-      <h4 class="f3 mt0 mb3 fw5">Bronze</h4>
-      <div class="flex flex-wrap">
-        <div class="w-50 w-25-l pa2">
-          <figure class="ma0">
-            <div class="aspect-ratio aspect-ratio--16x9">
-              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
-            </div>
-          </figure>
-        </div>
-        <div class="w-50 w-25-l pa2">
-          <figure class="ma0">
-            <div class="aspect-ratio aspect-ratio--16x9">
-              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
-            </div>
-          </figure>
-        </div>
-        <div class="w-50 w-25-l pa2">
-          <figure class="ma0">
-            <div class="aspect-ratio aspect-ratio--16x9">
-              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
-            </div>
-          </figure>
-        </div>
-        <div class="w-50 w-25-l pa2">
-          <figure class="ma0">
-            <div class="aspect-ratio aspect-ratio--16x9">
-              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
-            </div>
-          </figure>
-        </div>
-        <div class="w-50 w-25-l pa2">
-          <figure class="ma0">
-            <div class="aspect-ratio aspect-ratio--16x9">
-              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
-            </div>
-          </figure>
-        </div>
-        <div class="w-50 w-25-l pa2">
-          <figure class="ma0">
-            <div class="aspect-ratio aspect-ratio--16x9">
-              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
-            </div>
-          </figure>
-        </div>
-        <div class="w-50 w-25-l pa2">
-          <figure class="ma0">
-            <div class="aspect-ratio aspect-ratio--16x9">
-              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
-            </div>
-          </figure>
-        </div>
-        <div class="w-50 w-25-l pa2">
-          <figure class="ma0">
-            <div class="aspect-ratio aspect-ratio--16x9">
-              <div class="aspect-ratio--object cover" style="background:url(http://placehold.it/1000x400?text=Sponsor) center;"></div>
-            </div>
-          </figure>
-        </div>
+        <% data.sponsors.sponsors.silver.each do |sponsor| %>
+          <div class="w-100 w-third-l">
+            <%= partial('partials/components/sponsor', :locals => { :sponsor => sponsor }) %>
+          </div>
+        <% end %>
       </div>
     </div>
   </div>

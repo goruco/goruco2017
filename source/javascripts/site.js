@@ -53,8 +53,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
   // Speaker Detail Modals
-  var speakerModal = new VanillaModal.default();
+  var speakerModal = new VanillaModal.default({
+    open: '.open-speaker-modal',
+    close: '.close-speaker-modal',
+  });
 
+  var sponsorModal = new VanillaModal.default({
+    open: '.open-sponsor-modal',
+    close: '.close-sponsor-modal',
+  });
 
   // Lazy load location photos
   var lazyLoadLocationPhotos = new LazyLoad({

@@ -17,9 +17,12 @@
     <%= truncate(synopsis, :length => 75) %>
   </p>
   <div>
-    <a href="#modal-<%= index %>" data-modal-open class="link dark-pink f6">Read More</a>
+    <a href="#modal-<%= index %>" class="open-speaker-modal link dark-pink f6">Read More</a>
   </div>
   <div id="modal-<%= index %>" class="modal-hider">
+    <a class="close-speaker-modal bg-transparent absolute top-0 right-0 ma2 w2">
+      <svg fill="#fff" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 24 24" x="0px" y="0px"><path d="M20.827 4.357l-0.707-0.707-8.131 8.132-8.132-8.132-0.707 0.707 8.132 8.132-8.132 8.132 0.707 0.707 8.132-8.132 8.131 8.132 0.707-0.707-8.131-8.132z"/></svg>
+    </a>
     <div class="bg-scattered-rubies h5 flex flex-column items-center justify-center">
       <% if !photo.nil? %>
         <div class="w4 h4 mb3">
