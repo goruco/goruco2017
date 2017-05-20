@@ -9,3 +9,7 @@ sponsors:
       logo: 'codecademy.svg'
       blurb: 'Codecademy is an online learning platform that has taught 30 million users worldwide how to code. Our engineering team is small and agile, and our stack includes Ruby, Rails, and React. Our mission is to make technical education accessible to everyone.'
       website: 'https://www.codecademy.com/'
+    - name: Healthify
+      logo: 'healthify.png'
+      blurb: "Healthify's mission is to build a world where no one's health is hindered by their need. To achieve this, we provide a platform to manage the social determinants of health for vulnerable populations. We help healthcare and government organizations alike search for community services, track referrals, and coordinate with community partners"
+      website: 'https://www.healthify.us/'
