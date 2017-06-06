@@ -1,0 +1,17 @@
+<section class="pa4 pa4-m pa5-l relative overflow-hidden bg-scattered-rubies-dark" id="sponsors">
+  <div class="mb4">
+    <h3 class="f4 f2-ns ma0 bt bw2 b--black pt3 dib">Scholarship Sponsors</h3>
+  </div>
+  <div class="mw8-l center tc">
+    <div class="mb4">
+      <h4 class="f3 mt0 mb3 fw5">Gold</h4>
+      <div class="flex flex-wrap">
+        <% data.sponsors.sponsors.gold.each do |sponsor| %>
+          <div class="w-100 w-50-l">
+            <%= partial('partials/components/sponsor', :locals => { :sponsor => sponsor }) %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>
