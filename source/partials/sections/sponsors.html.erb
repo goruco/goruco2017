@@ -23,5 +23,15 @@
         <% end %>
       </div>
     </div>
+    <div class="mb4">
+      <h4 class="f3 mt0 mb3 fw5">Bronze</h4>
+      <div class="flex flex-wrap nl3-l nr3-l">
+        <% data.sponsors.sponsors.bronze.each do |sponsor| %>
+            <div class="w-100 w-25-l mb3 mb4-l ph3-l">
+              <%= partial('partials/components/sponsor', :locals => { :sponsor => sponsor }) %>
+            </div>
+        <% end %>
+      </div>
+    </div>
   </div>
 </section>

@@ -21,3 +21,8 @@ sponsors:
       logo: 'xogroup.png'
       blurb: "XO Group’s mission is to help people navigate and truly enjoy life’s biggest moments together through our brands The Knot, The Nest, The Bump and GigMasters.  Our agile engineering teams are focused on our users, our technology, and our products.  We have powered millions of events with our technology and continue to scale for tomorrow's celebrations."
       website: 'http://xogroupinc.com/'
+  bronze:
+    - name: CarbonFive
+      logo: 'carbonfive.png'
+      blurb: 'Carbon Five is a digital product development consultancy. We partner with our clients to create exceptional products and grow effective teams.'
+      website: 'http://www.carbonfive.com/'
