@@ -1,44 +1,50 @@
 morning_schedule:
   - timeslot: '9:00 AM — 10:00 AM'
     title: Registration
-    description: Doors open, get your conference badge and some New York breakfast
+    description: Doors open, get your conference badge and some breakfast
   - timeslot: '10:00 AM — 10:30 AM'
-    title: 'Keynote: Code Quality Lessons Learned'
-    description: Bryan Helmkamp (NY)
-  - timeslot: '10:40 AM – 11:10 AM'
-    title: 'The Guest: A Guide To Code Hospitality'
-    description: Nadia Odunayo (UK)
-  - timeslot: 11:35 AM – 12:05 PM
-    title: 'Symmetric API Testing '
-    description: Aditya Mukerjee (NY)
-  - timeslot: 12:15 PM – 12:25 PM
-    title: 'Pipe Operator for Ruby '
-    description: Fabio Akita (Brazil)
-  - timeslot: 12:20 PM – 12:30 PM
-    title: 'Introducing the Crystal Programming Language '
-    description: Will Leinweber (SF)
-  - timeslot: 12:40 PM – 12:50 PM
-    title: 'Ruby Racing: Challenging Ruby Methods '
-    description: Danielle Adams (NY)
+    title: "The Rubyist's Illustrated Rust Adventure Survival Guide"
+    description: Liz Baillie
+  - timeslot: '10:35 AM — 11:05 AM'
+    title: Optimizing for API consumers with GraphQL
+    description: Brooks Swinnerton
+  - timeslot: '11:20 AM — 11:30 AM'
+    title: "Trust & Teams"
+    description: "Rebecca Miller-Webster"
+  - timeslot: '11:35 AM — 11:45 AM'
+    title: "Object Oriented Thinking with Elixir and OTP"
+    description: Ryan Findley
+  - timeslot: '11:50 AM — 12:00 PM'
+    title: "Developer Productivity Engineering"
+    description: Panayiotis Thomakos
+  - timeslot: '12:05 PM — 12:35 PM'
+    title: "SQL to NoSQL to NewSQL and the rise of polyglot persistence"
+    description: Paul Dix
 afternoon_schedule:
-  - timeslot: '02:20 PM – 02:50 PM'
-    title: Just a Ruby Minute
-    description: Andrew Faraday (UK)
-  - timeslot: '03:00 PM – 03:10 PM'
-    title: 'Impactful Refactors: Refactoring for Readability'
-    description: Kinsey Ann Durham (Denver)
-  - timeslot: '03:15 PM – 03:25 PM'
-    title: Database performance at scale for RoR and MySQL
-    description: Rocio Delgado (NY)
-  - timeslot: '03:30 PM – 03:40 PM'
-    title: Enumerable’s Ugly Cousin
-    description: Ross Kaffenberger (NY)
-  - timeslot: '04:10 PM – 4:40 PM'
-    title: Big Data with rubygems.org Download Data
-    description: Aja Hammerly (Seattle)
-  - timeslot: '04:50 PM – 5:20 PM'
-    title: 'Keynote: Cult(ure)'
-    description: Aja Hammerly (Seattle)
-  - timeslot: '06:00 PM – 09:00 PM'
-    title: 'After Party'
-    description: Boom!
+  - timeslot: '2:10 PM — 2:40 PM'
+    title: "Difficult Conversations"
+    description: Adam Cuppy
+  - timeslot: '2:50 PM — 3:20 PM'
+    title: "What I Learned to Love About Ruby When I Switched to Python"
+    description: Lauren Ellsworth
+  - timeslot: '3:35 PM — 4:05 PM'
+    title: "Front-End Sadness to Happiness: The React on Rails Story"
+    description: Justin Gordon
+  - timeslot: '4:10 PM — 4:20 PM'
+    title: "Shaving my head made me a better programmer"
+    description: Alex Qin
+  - timeslot: '4:25 PM — 4:35 PM'
+    title: "Beyond OSS"
+    description: Verónica López
+  - timeslot: '4:40 PM — 4:50 PM'
+    title: "Scars: On handling adversity"
+    description: Ross Kaffenberger
+  - timeslot: '5:15 PM — 5:45 PM'
+    title: "How to load 1m lines of Ruby in 5s"
+    description: Andrew Metcalf
+  - timeslot: '5:50 PM — 6:20 PM'
+    title: "Type. Context."
+    description: Sam Phippen
+  - timeslot: 
+    title: After Party!
+    description: 

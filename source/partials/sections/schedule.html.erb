@@ -1,5 +1,5 @@
-<section class="ph4 ph4-m pt4 pt5-l ph5-l relative" id="schedule">
-  <div class="mb5">
+<section class="pa3 pa5-l relative mb4 mb0-l" id="schedule">
+  <div class="mb4 mb5-l">
     <h3 class="f3 f2-ns ma0 bt bw2 b--black pt3 dib">Schedule</h3>
   </div>
 
@@ -9,18 +9,18 @@
     <% end %>
   </div>
 
-  <div class="w-100 w-50-l center pb4 lunch relative tc-l pt4-l pb5-l">
+  <div class="w-100 w-50-l center pb4 mb2 mb0-l lunch relative bb b--black-10 bn-l tc-l mt4 mt0-l pt4-l pb5-l">
     <div class="bg-white dib-l ph5-l ba-l bw2-l b--black pv3-l bg-lunch relative">
       <div class="z-2">
         <h4 class="f3 mt0 mb2">Lunch</h4>
-        <p class="f4 ma0">Dig Inn</p>
+        <p class="f4 ma0">12:35 PM - 2:00 PM</p>
       </div>
     </div>
   </div>
   
   <div class="afternoon-sessions relative">
     <% data.schedule.afternoon_schedule.each do |event| %>
-    <%= partial('partials/components/event-afternoon', :locals => { :timeslot => event.timeslot, :title => event.title, :description => event.description }) %>
+      <%= partial('partials/components/event-afternoon', :locals => { :timeslot => event.timeslot, :title => event.title, :description => event.description }) %>
     <% end %>
   </div>
 
