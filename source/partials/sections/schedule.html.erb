@@ -5,7 +5,7 @@
 
   <div class="morning-sessions relative">
     <% data.schedule.morning_schedule.each do |event| %>
-    <%= partial('partials/components/event', :locals => { :timeslot => event.timeslot, :title => event.title, :description => event.description }) %>
+    <%= partial('partials/components/event', :locals => { :timeslot => event.timeslot, :title => event.title, :description => event.description, :speaker => event.speaker }) %>
     <% end %>
   </div>
 
@@ -20,7 +20,7 @@
   
   <div class="afternoon-sessions relative">
     <% data.schedule.afternoon_schedule.each do |event| %>
-      <%= partial('partials/components/event-afternoon', :locals => { :timeslot => event.timeslot, :title => event.title, :description => event.description }) %>
+      <%= partial('partials/components/event-afternoon', :locals => { :timeslot => event.timeslot, :title => event.title, :description => event.description, :speaker => event.speaker }) %>
     <% end %>
   </div>
 

@@ -5,46 +5,60 @@ morning_schedule:
   - timeslot: '10:00 AM — 10:30 AM'
     title: "The Rubyist's Illustrated Rust Adventure Survival Guide"
     description: Liz Baillie
+    speaker: 4
   - timeslot: '10:35 AM — 11:05 AM'
     title: Optimizing for API consumers with GraphQL
     description: Brooks Swinnerton
+    speaker: 8
   - timeslot: '11:20 AM — 11:30 AM'
     title: "Trust & Teams"
     description: "Rebecca Miller-Webster"
+    speaker: 7
   - timeslot: '11:35 AM — 11:45 AM'
     title: "Object Oriented Thinking with Elixir and OTP"
     description: Ryan Findley
+    speaker: 3
   - timeslot: '11:50 AM — 12:00 PM'
     title: "Developer Productivity Engineering"
     description: Panayiotis Thomakos
+    speaker: 9
   - timeslot: '12:05 PM — 12:35 PM'
     title: "SQL to NoSQL to NewSQL and the rise of polyglot persistence"
     description: Paul Dix
+    speaker: 1
 afternoon_schedule:
   - timeslot: '2:10 PM — 2:40 PM'
     title: "Difficult Conversations"
     description: Adam Cuppy
+    speaker: 5
   - timeslot: '2:50 PM — 3:20 PM'
     title: "What I Learned to Love About Ruby When I Switched to Python"
     description: Lauren Ellsworth
+    speaker: 0
   - timeslot: '3:35 PM — 4:05 PM'
     title: "Front-End Sadness to Happiness: The React on Rails Story"
     description: Justin Gordon
+    speaker: 12
   - timeslot: '4:10 PM — 4:20 PM'
     title: "Shaving my head made me a better programmer"
     description: Alex Qin
+    speaker: 2
   - timeslot: '4:25 PM — 4:35 PM'
     title: "Beyond OSS"
     description: Verónica López
+    speaker: 6
   - timeslot: '4:40 PM — 4:50 PM'
     title: "Scars: On handling adversity"
     description: Ross Kaffenberger
+    speaker: 10
   - timeslot: '5:15 PM — 5:45 PM'
     title: "How to load 1m lines of Ruby in 5s"
     description: Andrew Metcalf
+    speaker: 13
   - timeslot: '5:50 PM — 6:20 PM'
     title: "Type. Context."
     description: Sam Phippen
+    speaker: 11
   - timeslot: 
     title: After Party!
     description: 

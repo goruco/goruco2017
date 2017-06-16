@@ -1,7 +1,15 @@
 <div class="flex-ns flex-column flex-row-l w-100 event relative bb bn-l b--black-10 pt3 pt0-l">
   <div class="w-100 w-75-l pr4-l pl0-l pb3 pb4-l timeline-left relative mr2-l tr-l order-1 order-0-l">
     <h4 class="f3 mt0 mb2"><%= title %></h4>
-    <p class="f4 ma0"><%= description %></p>
+    <p class="f4 ma0">
+		<% if speaker %>
+			<a href="#modal-<%= speaker %>" class="open-speaker-modal link dark-pink f6 db">
+				<%= description %>
+			</a>
+		<% else %>
+			<%= description %>
+		<% end %>
+    </p>
   </div>
   <div class="mb3 w-100 w-25-l mb0-l tr-l order-0 order-1-l">
     <h4 class="f4 ma0 fw5 dark-gray"><%= timeslot %></h4>

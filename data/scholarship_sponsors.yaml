@@ -1,0 +1,23 @@
+sponsors:
+  gold:
+    - name: Github
+      logo: 'github.png'
+      blurb: ''
+      website: 'https://github.com/'
+  silver:
+    - name: DefMethod
+      logo: 'def-method.png'
+      blurb: ''
+      website: 'https://www.defmethod.com/'
+    - name: CodeClimate
+      logo: 'code-climate.png'
+      blurb: ''
+      website: 'https://codeclimate.com/'
+    - name: Stride
+      logo: 'stride.png'
+      blurb: 'Stride is an Agile software development consultancy in New York City. We co-locate with engineering teams in New York (like Plated, Paddle8, Gust, Sailthru, XO Group, Intent Media) to help you up your game and get stuff done. Think of us as Agile SWAT teams. We leverage the skills of your entire team and help you improve code quality and your Agile process in perpetuity. Whether you seek process refinement help (TDD, refactoring, microservices, estimates, continuous delivery, and more) or need to get high quality code out the door to launch your MVP, Stride is here to help.'
+      website: 'http://www.stridenyc.com/'
+    - name: BlueApron
+      logo: 'blue-apron.png'
+      blurb: ''
+      website: 'https://www.blueapron.com'

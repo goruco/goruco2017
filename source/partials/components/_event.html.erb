@@ -4,6 +4,14 @@
   </div>
   <div class="w-100 w-75-l pl4-l pb3 pb4-l ml2-l timeline-right relative">
     <h4 class="f3 mt0 mb2"><%= title %></h4>
-    <p class="f4 ma0"><%= description %></p>
+    <p class="f4 ma0">
+    	<% if speaker %>
+    		<a href="#modal-<%= speaker %>" class="open-speaker-modal link dark-pink f6 db">
+    			<%= description %>
+    		</a>
+    	<% else %>
+    		<%= description %>
+    	<% end %>
+    </p>
   </div>
 </div>
