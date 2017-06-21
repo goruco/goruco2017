@@ -1,21 +1,21 @@
 sponsors:
   gold:
+    - name: 'Plated'
+      logo: 'plated.png'
+      blurb: "Plated is changing the way America eats and reconnecting people to their food, one plate at a time."
+      website: 'https://www.plated.com/'
     - name: Stride
       logo: 'stride.png'
       blurb: 'Stride is an Agile software development consultancy in New York City. We co-locate with engineering teams in New York (like Plated, Paddle8, Gust, Sailthru, XO Group, Intent Media) to help you up your game and get stuff done. Think of us as Agile SWAT teams. We leverage the skills of your entire team and help you improve code quality and your Agile process in perpetuity. Whether you seek process refinement help (TDD, refactoring, microservices, estimates, continuous delivery, and more) or need to get high quality code out the door to launch your MVP, Stride is here to help.'
       website: 'http://www.stridenyc.com/'
   silver:
-    - name: 'Plated'
-      logo: 'plated.png'
-      blurb: "Plated is changing the way America eats and reconnecting people to their food, one plate at a time."
-      website: 'https://www.plated.com/'
     - name: Codecademy
       logo: 'codecademy.svg'
       blurb: 'Codecademy is an online learning platform that has taught 30 million users worldwide how to code. Our engineering team is small and agile, and our stack includes Ruby, Rails, and React. Our mission is to make technical education accessible to everyone.'
       website: 'https://www.codecademy.com/'
     - name: Healthify
       logo: 'healthify.png'
-      blurb: "Healthify's mission is to build a world where no one's health is hindered by their need. To achieve this, we provide a platform to manage the social determinants of health for vulnerable populations. We help healthcare and government organizations alike search for community services, track referrals, and coordinate with community partners"
+      blurb: "Healthify’s mission is to build a world where no one’s health is hindered by their need. To achieve this, we develop SaaS products that empower social workers to connect vulnerability patients to food pantries, homeless shelters, and other social services."
       website: 'https://www.healthify.us/'
     - name: Betterment
       logo: 'betterment.png'
