@@ -59,6 +59,5 @@ afternoon_schedule:
     title: "Type. Context."
     description: Sam Phippen
     speaker: 11
-  - timeslot: 
-    title: After Party!
-    description: 
+  - title: After Party!
+    timeslot: '6:30 PM — 8:30 PM'
